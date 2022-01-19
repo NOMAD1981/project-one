@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Merriweather+Sans&display=swap');
+
+/* clear browser defaults */
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    font-family: 'Merriweather Sans', sans-serif;
+    letter-spacing: 2px;
+    color: #333;
+}
+
+/* header and logo styles */
+
+h1 {
+    font-family: 'Merriweather', serif;
+    color: #7c26cb;
+}
+
+#logo {
+    float: left;
+    font-size: 300%;
+    margin-left: 35px;
+
+    /* Animates logo zoom effect on loading the page */
+    animation-name: logo-zoom;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+}
+
+/* Creates the level of zoom for logo */
+@keyframes  logo-zoom {
+    from {
+        transform: scale(0.8);
+    }
+    to {
+        transform: scale(1);
+    }
+}
+
+/* navigation link styles */
+
