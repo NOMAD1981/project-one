@@ -34,7 +34,7 @@ h1 {
 /* Creates the level of zoom for logo */
 @keyframes  logo-zoom {
     from {
-        transform: scale(0.8);
+        transform: scale(0.7);
     }
     to {
         transform: scale(1);
