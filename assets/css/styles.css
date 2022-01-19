@@ -15,3 +15,7 @@ body {
 
 /* header and logo styles */
 
+h1 {
+    font-family: 'Merriweather', serif;
+    color: #7c26cb;
+}
