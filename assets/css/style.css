@@ -14,9 +14,12 @@ body {
 
 /* header and logo styles */
 
-h1 {
+h1, h2 {
     font-family: 'Merriweather', serif;
-    color: #7c26cb;
+}
+
+h2 {
+    color: #fff;
 }
 
 #logo {
@@ -101,3 +104,40 @@ h1 {
     background-color: rgba(226, 138, 43, .8);
     position: relative;
 }
+
+/* offerings section styles */
+
+#offerings {
+    height: 600px;
+}
+
+#left-offerings {
+    padding-top: 25px;
+    width: 50%;
+    float: left;
+    position: relative;
+    background-color: #7c26cb;
+}
+
+#right-offerings {
+    padding-top: 25px;
+    width: 50%;
+    float: right;
+    position: relative;
+    background-color: #7c26cb;
+}
+
+.left-offerings-heading {
+    line-height: 25px;
+    clear: both;
+    margin-bottom: 30px;
+}
+
+.right-offerings-heading {
+    line-height: 25px;
+    clear: both;
+    margin-bottom: 30px;
+}
+
+
+
