@@ -157,3 +157,14 @@ h2 {
     color: #fff;
 }
 
+.offerings-times-cost {
+    color: #f9f9f9;
+    text-align: right;
+}
+
+.offerings-times-cost > span {
+    font-family: 'Merriweather', serif;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
