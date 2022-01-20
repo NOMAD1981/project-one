@@ -109,7 +109,12 @@ h2 {
 
 #offerings {
     height: auto;
+}
+
+#offerings-image {
     background: url("../images/lotus_bg.png") no-repeat center center;
+    height: 900px;
+    width: 100%;
 }
 
 #offerings-heading {
