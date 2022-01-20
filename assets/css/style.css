@@ -26,6 +26,7 @@ h2 {
     float: left;
     font-size: 300%;
     margin-left: 35px;
+    letter-spacing: 4px;
 
     /* Animates logo zoom effect on loading the page */
     animation-name: logo-zoom;
@@ -113,7 +114,7 @@ h2 {
 
 #offerings-image {
     background: url("../images/lotus_bg.png") no-repeat center center;
-    height: 900px;
+    height: 1100px;
     width: 100%;
 }
 
@@ -150,6 +151,8 @@ h2 {
 .right-offerings-heading h2 {
     color: #fff;
     line-height: 2em;
+    text-transform: uppercase;
+    letter-spacing: 4px;
 }
 
 .left-offerings-heading p, 
@@ -166,5 +169,5 @@ h2 {
     font-family: 'Merriweather', serif;
     font-weight: 700;
     text-transform: uppercase;
+    letter-spacing: 2px;
 }
-
