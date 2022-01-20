@@ -19,7 +19,7 @@ h1, h2 {
 }
 
 h2 {
-    color: #fff;
+    color: #333;
 }
 
 #logo {
@@ -108,36 +108,41 @@ h2 {
 /* offerings section styles */
 
 #offerings {
-    height: 600px;
+    height: auto;
+}
+
+#offerings-heading {
+    font-size: 200%;
+    text-align: center;
+    margin: 35px 10px;
 }
 
 #left-offerings {
-    padding-top: 25px;
-    width: 50%;
+    padding-top: 35px;
+    width: 47%;
     float: left;
-    position: relative;
-    background-color: #7c26cb;
+    margin-left: 2%;
 }
 
 #right-offerings {
-    padding-top: 25px;
-    width: 50%;
+    padding-top: 35px;
+    width: 47%;
     float: right;
-    position: relative;
-    background-color: #7c26cb;
+    margin-right: 2%;
 }
 
-.left-offerings-heading {
-    line-height: 25px;
-    clear: both;
-    margin-bottom: 30px;
-}
-
+.left-offerings-heading, 
 .right-offerings-heading {
-    line-height: 25px;
+    line-height: 1.7em;
     clear: both;
-    margin-bottom: 30px;
+    padding: 20px 35px 15px;
+    margin-bottom: 35px;
+    background-color: rgba(226, 138, 43, .8);
 }
 
-
+.left-offerings-heading h2, 
+.right-offerings-heading h2 {
+    color: #333;
+    line-height: 2em;
+}
 
