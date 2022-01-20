@@ -24,7 +24,7 @@ h2 {
 
 #logo {
     float: left;
-    font-size: 200%;
+    font-size: 300%;
     margin-left: 35px;
 
     /* Animates logo zoom effect on loading the page */
@@ -109,6 +109,7 @@ h2 {
 
 #offerings {
     height: auto;
+    background: url("../images/lotus_bg.png") no-repeat center center;
 }
 
 #offerings-heading {
@@ -137,12 +138,17 @@ h2 {
     clear: both;
     padding: 20px 35px 15px;
     margin-bottom: 35px;
-    background-color: rgba(226, 138, 43, .8);
+    background-color: rgba(124, 38, 203, .9);
 }
 
 .left-offerings-heading h2, 
 .right-offerings-heading h2 {
-    color: #333;
+    color: #fff;
     line-height: 2em;
+}
+
+.left-offerings-heading p, 
+.right-offerings-heading p {
+    color: #fff;
 }
 
