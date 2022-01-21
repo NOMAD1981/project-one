@@ -193,7 +193,7 @@ h2 {
 #left-teacher,
 #right-teacher,
 #center-teacher {
-    padding: 35px;
+    padding: 35px 0;
     width: 33%;
     height: auto;
     display: inline-block;
@@ -219,6 +219,12 @@ h2 {
     line-height: 2em;
     text-transform: uppercase;
     letter-spacing: 4px;
+}
+
+#left-teacher-heading p,
+#right-teacher-heading p,
+#center-teacher-heading p {
+    padding: 0 70px;
 }
 
 /* teacher section circular imagery */
