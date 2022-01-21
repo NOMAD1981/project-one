@@ -354,3 +354,66 @@ footer {
     display: block;
     margin: auto;
 }
+
+/* Enquiry form */
+
+#form {
+    clear: left;
+    background: url("../images/lotus-flower-blossom.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+}
+
+.enquiry-form {
+    margin: 75px 75px 0 0;
+    color: #2a2a2a;
+    background-color: rgba(226, 138, 43, .8);
+    max-width: 400px;
+    position: absolute;
+    right: 5%;
+    padding: 25px;
+}
+
+.enquiry-form > h2 {
+    color: #2a2a2a;
+    margin-bottom: 20px;
+}
+
+.text-input,
+.class-options {
+    background: transparent;
+    color: #2a2a2a;
+    width: 100%;
+    height: 25px;
+    margin: 5px 0 20px 0;
+    border: 1px solid #fafafa;
+    border-radius: 2px;
+}
+
+.text-input:hover {
+    border-color: #7c26cb;
+}
+
+.join-button {
+    margin-top: 20px;
+    border-radius: 2px;
+    padding: 15px 32px 15px 32px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 100%;
+    background-color: #7c26cb;
+    color: #fafafa;
+    display: block;
+}
+
+.join-button:hover {
+    background-color: #fafafa;
+    color: #f16c6b;
+}
+
+/* Google map embed */
+#google-map {
+padding-bottom:: 0;
+margin-bottom: 0;
+}

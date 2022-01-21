@@ -23,10 +23,34 @@
   </nav>
 </header>
 <section>
-    Contact Form
+  <section id="form">
+    <form action="https://formdump.codeinstitute.net/" method="POST" class="enquiry-form" aria-label="Class preference form">
+        <h2>Let us know what you are interested in:</h2>
+        <label for="fname">First Name</label>
+        <input type="text" id="fname" name="first_name" class="text-input" aria-label="Enter first name into form" required>
+        <label for="lname">Last Name</label>
+        <input type="text" id="lname" name="last_name" class="text-input" aria-label="Enter last name into form" required>
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email_address" class="text-input" aria-label="Enter email address into form" required>
+        <label for="class-interest">Select the class are you interested in:</label>
+            <select id="class-interest" name="class-interest" class="class-options" aria-label="Use the dropdown to select the class you are interested in" required>
+                <option value="hatha">Hatha Yoga</option>
+                <option value="iyengar">Iyengar Yoga</option>
+                <option value="kundalini">Kundalini Yoga</option>
+                <option value="guided">Guided Meditation</option>
+                <option value="chakra">Chakra Meditation</option>
+                <option value="qigong">Qigong Meditation</option>
+            </select>
+        <label for="consent">I consent to my personal information being submitted.</label>
+        <input type="radio" id="consent" name="consent_required" value="consent" aria-label="Personal information submission consent radio button" required>
+        <input class="join-button" type="submit" aria-label="Submit button" value="Send Enquiry">
+    </form>
+</section>
 </section>
 <section>
-    Google Map
+    <div>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9617.634966568761!2d-8.924106559514662!3d52.941067978335575!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x485b73c4cfa29be9%3A0x73a9c2922849fb65!2sClooneen%2C%20Co.%20Clare%2C%20V95%20VF21!5e0!3m2!1sen!2sie!4v1642799213565!5m2!1sen!2sie" width="1920" height="600" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </div>
 </section>
 <footer>
     <div>
