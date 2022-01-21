@@ -118,7 +118,7 @@ h2 {
 
 #offerings-image {
     background: url("../images/lotus_bg.png") no-repeat center center;
-    height: 1100px;
+    height: 1050px;
     width: 100%;
 }
 
@@ -310,32 +310,43 @@ footer {
     clear: both;
     height: auto;
     width: 100%;
-    overflow: hidden;
+    overflow: hidden; 
     position: relative;
 }
 
-/* #yoga-schedule-image-container,
-#meditation-schedule-image-container {
-    width: 100%;
-    padding: 0px;
-} */
-
-/* #yoga-schedule-image {
+.yoga-schedule-image-container {
     float: right;
-    lear: right;
-    background: url("../images/yoga-forward-stretch.jpg") no-repeat center center;
-} */
+    margin: 35px 2% 0 0;
+}
 
-/*#meditation-schedule-image {
+.meditation-schedule-image-container {
     float: left;
-    clear: left;
-    background: url("../images/main-image.jpg") no-repeat center center;
+    margin: 35px 0 0 2%;
+}
+
+.yoga-schedule-image-container,
+.meditation-schedule-image-container {
+    width: 47%;
+    height: 475px;
+    border-style: solid;
+    border-color: #e28a2b;
+    border-width: 5px;
+}
+
+#yoga-schedule-image {
+    background: url("../images/yoga-forward-stretch.jpg") no-repeat center center;
+    height: 100%;
+}
+
+#meditation-schedule-image {
+    background: url("../images/meditation-mala-beads.jpg") no-repeat center center;
+    height: 100%;
 }
 
 #yoga-schedule-image,
 #meditation-schedule-image {
     height: 100%;
-} */
+}
 
 .video {
     max-width: 60%;
