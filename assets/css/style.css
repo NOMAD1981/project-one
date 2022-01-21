@@ -305,7 +305,8 @@ footer {
 
 /* Schedule styles */
 
-#class-schedule {
+#yoga-class-schedule,
+#meditation-class-schedule {
     clear: both;
     height: auto;
     width: 100%;
@@ -315,18 +316,17 @@ footer {
 
 /* #yoga-schedule-image-container,
 #meditation-schedule-image-container {
-    width: 47%;
+    width: 100%;
     padding: 0px;
-    display: block;
-}
+} */
 
-#yoga-schedule-image {
+/* #yoga-schedule-image {
     float: right;
-    clear: right;
-    background: url("../images/main-image.jpg") no-repeat center center;
-}
+    lear: right;
+    background: url("../images/yoga-forward-stretch.jpg") no-repeat center center;
+} */
 
-#meditation-schedule-image {
+/*#meditation-schedule-image {
     float: left;
     clear: left;
     background: url("../images/main-image.jpg") no-repeat center center;
