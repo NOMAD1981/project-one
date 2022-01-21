@@ -179,21 +179,23 @@ h2 {
 /* teacher section styles */
 
 #left-teacher {
-    padding-top: 35px;
-    width: 33%;
     float: left;
 }
 
 #right-teacher {
-    padding-top: 35px;
-    width: 33%;
     float: right;
 }
 
 #center-teacher {
-    padding-top: 35px;
-    width: 33%;
     margin: 0 auto;
+}
+
+#left-teacher,
+#right-teacher,
+#center-teacher {
+    padding: 35px 70px;
+    width: 33%;
+    text-align: center;
 }
 
 #left-teacher-heading,
@@ -215,4 +217,36 @@ h2 {
     line-height: 2em;
     text-transform: uppercase;
     letter-spacing: 4px;
+}
+
+/* teacher section circular imagery */
+
+#teacher-image-container {
+    width: 300px;
+    height: 300px;
+    padding: 0px;
+    border-style: solid;
+    border-color: #e28a2b;
+    border-width: 5px;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+#left-teacher-image {
+    background: url("../images/teacher-left.jpg") no-repeat center center;
+}
+
+#right-teacher-image {
+    background: url("../images/teacher-right.jpg") no-repeat center center;
+}
+
+#center-teacher-image {
+    background: url("../images/teacher-center.jpg") no-repeat center center;
+}
+
+#left-teacher-image,
+#right-teacher-image,
+#center-teacher-image {
+    height: 100%;
+    border-radius: 50%;
 }
