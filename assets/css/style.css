@@ -122,7 +122,8 @@ h2 {
     width: 100%;
 }
 
-#offerings-heading {
+#offerings-heading,
+#teachers-heading {
     font-size: 225%;
     text-align: center;
     margin: 35px 10px;
@@ -164,12 +165,12 @@ h2 {
     color: #fff;
 }
 
-.offerings-times-cost {
+.offerings-cost {
     color: #f9f9f9;
     text-align: right;
 }
 
-.offerings-times-cost > span {
+.offerings-cost > span {
     font-family: 'Merriweather', serif;
     font-weight: 700;
     text-transform: uppercase;
@@ -257,4 +258,30 @@ h2 {
 #center-teacher-image {
     height: 100%;
     border-radius: 50%;
+}
+
+/* Footer */
+
+footer {
+    height: 150px;
+}
+
+.social-networks {
+    text-align: center;
+    background-color: #7c26cb;
+}
+
+.social-networks li {
+    display: inline;
+}
+
+.social-networks i {
+    font-size: 200%;
+    margin: 1%;
+    padding: 5%;
+    color: #fafafa;
+}
+
+.social-networks i:hover {
+    color: #e28a2b;
 }
