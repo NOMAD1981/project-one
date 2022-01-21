@@ -175,3 +175,44 @@ h2 {
     text-transform: uppercase;
     letter-spacing: 2px;
 }
+
+/* teacher section styles */
+
+#left-teacher {
+    padding-top: 35px;
+    width: 33%;
+    float: left;
+}
+
+#right-teacher {
+    padding-top: 35px;
+    width: 33%;
+    float: right;
+}
+
+#center-teacher {
+    padding-top: 35px;
+    width: 33%;
+    margin: 0 auto;
+}
+
+#left-teacher-heading,
+#right-teacher-heading {
+    line-height: 1.7em;
+    clear: both;
+    margin-bottom: 35px;
+}
+
+#center-teacher-heading {
+    line-height: 1.7em;
+    margin-bottom: 35px;
+}
+
+#left-teacher-heading h2,
+#right-teacher-heading h2,
+#center-teacher-heading h2 {
+    color: #2a2a2a;
+    line-height: 2em;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
