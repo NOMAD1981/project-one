@@ -129,14 +129,16 @@ h2 {
     margin: 35px 10px;
 }
 
-#left-offerings {
+#left-offerings,
+#yoga-classes {
     padding-top: 35px;
     width: 47%;
     float: left;
     margin-left: 2%;
 }
 
-#right-offerings {
+#right-offerings,
+#meditation-classes {
     padding-top: 35px;
     width: 47%;
     float: right;
@@ -144,7 +146,8 @@ h2 {
 }
 
 .left-offerings-heading, 
-.right-offerings-heading {
+.right-offerings-heading,
+.times-heading {
     line-height: 1.7em;
     clear: both;
     padding: 20px 35px 15px;
@@ -153,7 +156,8 @@ h2 {
 }
 
 .left-offerings-heading h2, 
-.right-offerings-heading h2 {
+.right-offerings-heading h2,
+.times-heading h2 {
     color: #fff;
     line-height: 2em;
     text-transform: uppercase;
@@ -161,7 +165,8 @@ h2 {
 }
 
 .left-offerings-heading p, 
-.right-offerings-heading p {
+.right-offerings-heading p,
+.times-heading p {
     color: #fff;
 }
 
@@ -302,4 +307,39 @@ footer {
 
 #class-schedule {
     clear: both;
+    height: auto;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+/* #yoga-schedule-image-container,
+#meditation-schedule-image-container {
+    width: 47%;
+    padding: 0px;
+    display: block;
+}
+
+#yoga-schedule-image {
+    float: right;
+    clear: right;
+    background: url("../images/main-image.jpg") no-repeat center center;
+}
+
+#meditation-schedule-image {
+    float: left;
+    clear: left;
+    background: url("../images/main-image.jpg") no-repeat center center;
+}
+
+#yoga-schedule-image,
+#meditation-schedule-image {
+    height: 100%;
+} */
+
+.video {
+    max-width: 60%;
+    padding: 35px 0;
+    display: block;
+    margin: auto;
 }
