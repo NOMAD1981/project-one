@@ -263,7 +263,7 @@ h2 {
 /* Footer */
 
 footer {
-    height: 150px;
+    height: 100px;
 }
 
 .social-networks {
@@ -285,4 +285,14 @@ footer {
 .social-networks i:hover {
     color: #e28a2b;
     font-size: 250%;
+}
+
+/* Copyright and contact */
+#bottom-bar {
+    text-align: center;
+    padding: 1%;
+}
+
+#bottom-bar a {
+    color: #7c26cb;
 }
