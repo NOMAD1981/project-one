@@ -178,7 +178,7 @@ h2 {
 
 /* teacher section styles */
 
-#left-teacher {
+/* #left-teacher {
     float: left;
 }
 
@@ -188,20 +188,22 @@ h2 {
 
 #center-teacher {
     margin: 0 auto;
-}
+} */
 
 #left-teacher,
 #right-teacher,
 #center-teacher {
-    padding: 35px 70px;
+    padding: 35px;
     width: 33%;
+    height: auto;
+    display: inline-block;
     text-align: center;
 }
 
 #left-teacher-heading,
 #right-teacher-heading {
     line-height: 1.7em;
-    clear: both;
+    /* clear: both; */
     margin-bottom: 35px;
 }
 
