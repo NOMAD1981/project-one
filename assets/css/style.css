@@ -470,9 +470,9 @@ footer {
 
 /* Media queries */
 
-/* For large to medium screens sizes from 1400px wide and down */
+/* For large to medium screens sizes from 1450px wide and down */
 
-@media screen and (max-width: 1400px) {
+@media screen and (max-width: 1450px) {
     #left-teacher,
     #center-teacher,
     #right-teacher {
