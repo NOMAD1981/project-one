@@ -365,7 +365,7 @@ footer {
     height: 900px;
 }
 
-.enquiry-form {
+.interest-registration-form {
     margin: 75px 75px 0 0;
     color: #2a2a2a;
     background-color: rgba(226, 138, 43, .8);
@@ -375,7 +375,7 @@ footer {
     padding: 25px;
 }
 
-.enquiry-form > h2 {
+.interest-registration-form > h2 {
     color: #2a2a2a;
     margin-bottom: 20px;
 }
