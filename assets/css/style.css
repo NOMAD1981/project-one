@@ -579,3 +579,15 @@ footer {
         font-size: 150%;
         letter-spacing: 2px;
 }
+
+/* For smallest screens sizes from 320px wide and down */
+
+@media screen and (max-width: 320px) {
+
+    h3, #main-menu { 
+        font-size: 10px;
+    }
+
+    #logo {
+        font-size: 100%;
+}
