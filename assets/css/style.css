@@ -247,12 +247,13 @@ h3 > a:hover {
     line-height: 2em;
     text-transform: uppercase;
     letter-spacing: 4px;
+    padding: 35px 0 15px 0;
 }
 
 #left-teacher-heading p,
 #right-teacher-heading p,
 #center-teacher-heading p {
-    padding: 0 70px;
+    padding: 0 35px;
 }
 
 /* teacher section circular imagery */
@@ -468,6 +469,20 @@ footer {
 }
 
 /* Media queries */
+
+/* For large to medium screens sizes from 1400px wide and down */
+
+@media screen and (max-width: 1400px) {
+    #left-teacher,
+    #center-teacher,
+    #right-teacher {
+    width: 60%;
+    clear: both;
+    display: block;
+    margin: 0 auto;
+    }
+}
+
 
 /* For large to medium screens sizes from 1200px wide and down */
 
