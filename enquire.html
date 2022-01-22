@@ -25,24 +25,51 @@
 <section>
   <section id="form">
     <form action="https://formdump.codeinstitute.net/" method="POST" class="enquiry-form" aria-label="Class preference form">
-        <h2>Let us know what you are interested in:</h2>
+        <h2>Register Your Interest:</h2>
         <label for="fname">First Name</label>
         <input type="text" id="fname" name="first_name" class="text-input" aria-label="Enter first name into form" required>
         <label for="lname">Last Name</label>
         <input type="text" id="lname" name="last_name" class="text-input" aria-label="Enter last name into form" required>
         <label for="email">Email</label>
         <input type="email" id="email" name="email_address" class="text-input" aria-label="Enter email address into form" required>
-        <label for="class-interest">Select the class are you interested in:</label>
-            <select id="class-interest" name="class-interest" class="class-options" aria-label="Use the dropdown to select the class you are interested in" required>
-                <option value="hatha">Hatha Yoga</option>
-                <option value="iyengar">Iyengar Yoga</option>
-                <option value="kundalini">Kundalini Yoga</option>
-                <option value="guided">Guided Meditation</option>
-                <option value="chakra">Chakra Meditation</option>
-                <option value="qigong">Qigong Meditation</option>
-            </select>
-        <label for="consent">I consent to my personal information being submitted.</label>
+        <fieldset id="studio-online">
+          <p>Do you prefer to join our studio or online classes?</p>
+          <input type="radio" id="studio" name="studio_online" value="studio" aria-label="Studio class preference radio button" required>
+          <label for="studio">Studio</label>
+          <input type="radio" id="online" name="studio_online" value="online" aria-label="Online class preference radio button">
+          <label for="online">Online</label>
+          <input type="radio" id="both" name="studio_online" value="both" aria-label="Both class preference radio button">
+          <label for="both">Send me info for both</label>
+        </fieldset>
+            <fieldset id="class-options">
+            <p>Which class(es) are you interested in?</p>
+            <div>
+              <input type="checkbox" id="hatha-checkbox" name="hatha" aria-label="Select if you interested in Hatha Yoga">
+              <label for="hatha-checkbox">Hatha Yoga</label>
+            </div>
+            <div>
+              <input type="checkbox" id="iyengar-checkbox" name="iyengar" aria-label="Select if you are interested in Iyengar Yoga">
+              <label for="iyengar-checkbox">Iyengar Yoga</label>
+            </div>
+            <div>
+              <input type="checkbox" id="kundalini-checkbox" name="kundalini" aria-label="Select if you are interested in Kundalini Yoga">
+              <label for="kundalini-checkbox">Kundalini Yoga</label>
+            </div>
+            <div>
+              <input type="checkbox" id="guided-checkbox" name="guided" aria-label="Select if you are interested in Guided Meditation">
+              <label for="guided-checkbox">Guided Meditation</label>
+            </div>
+            <div>
+              <input type="checkbox" id="chakra-checkbox" name="chakra" aria-label="Select if you are interested in Chakra Meditation">
+              <label for="chakra-checkbox">Chakra Meditation</label>
+            </div>
+            <div>
+              <input type="checkbox" id="qigong-checkbox" name="qigong" aria-label="Select if you are interested in Qigong Meditation">
+              <label for="qigong-checkbox">Qigong Meditation</label>
+            </div>
+          </fieldset>
         <input type="radio" id="consent" name="consent_required" value="consent" aria-label="Personal information submission consent radio button" required>
+        <label for="consent">I consent to my personal information being submitted.</label>
         <input class="join-button" type="submit" aria-label="Submit button" value="Send Enquiry">
     </form>
 </section>

@@ -362,7 +362,7 @@ footer {
     background: url("../images/lotus-flower-blossom.jpg");
     background-size: cover;
     background-position: center;
-    height: 600px;
+    height: 900px;
 }
 
 .enquiry-form {
@@ -371,7 +371,7 @@ footer {
     background-color: rgba(226, 138, 43, .8);
     max-width: 400px;
     position: absolute;
-    right: 5%;
+    right: 1%;
     padding: 25px;
 }
 
@@ -380,8 +380,7 @@ footer {
     margin-bottom: 20px;
 }
 
-.text-input,
-.class-options {
+.text-input {
     background: transparent;
     color: #2a2a2a;
     width: 100%;
@@ -393,6 +392,11 @@ footer {
 
 .text-input:hover {
     border-color: #7c26cb;
+}
+
+#class-options,
+#studio-online {
+    margin-bottom: 20px;
 }
 
 .join-button {
@@ -410,10 +414,4 @@ footer {
 .join-button:hover {
     background-color: #fafafa;
     color: #f16c6b;
-}
-
-/* Google map embed */
-#google-map {
-padding-bottom:: 0;
-margin-bottom: 0;
 }
