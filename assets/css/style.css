@@ -90,6 +90,10 @@ h3 > a:hover {
     font-weight: 700;
 }
 
+/* hr {
+    border: 1px solid #2a2a2a;
+} */
+
 /* Hero image and tagline */
 
 #hero-container {
@@ -375,7 +379,7 @@ footer {
 /* Enquiry form */
 
 #form {
-    clear: left;
+    clear: both;
     background: url("../images/lotus-flower-blossom.jpg");
     background-size: cover;
     background-position: center;
@@ -468,17 +472,31 @@ footer {
 /* For large to medium screens sizes from 1200px wide and down */
 
 @media screen and (max-width: 1200px) { 
+
+    #logo {
+        font-size: 200%;
+        margin-left: 35px;
+        letter-spacing: 3px;
+    }
+
+    #logo, #main-menu {
+        line-height: 75px;
+    }
+
+    #main-menu {
+        font-size: 14px;
+    }
+
     #left-offerings,
     #right-offerings { 
     width: 80%;
     clear: both;
-    /* display:block; */
     }
 
-/* Not functioning - revisit - may require background-image property */
+/* Not functioning - revisit - may require background-image property 
     #offerings-image {
     background-repeat: repeat-y;
-    }
+    } */
 
     #left-teacher,
     #center-teacher,
@@ -487,6 +505,48 @@ footer {
     clear: both;
     display: block;
     margin: 0 auto;
+    }
+
+    #yoga-classes,
+    .yoga-schedule-image-container,
+    #meditation-classes,
+    .meditation-schedule-image-container {
+        width: 70%
+    }
+
+    .video {
+        width: 100%;
+    }
+
+}
+
+    /* For medium to small screens sizes from 840px wide and down */
+
+@media screen and (max-width: 840px) {   
+    
+    h3 { 
+        font-size: 16px;
+    }
+    
+    #main-menu {
+        clear: left;
+        float: left;
+        margin-left: 35px;
+        margin-bottom: 20px;
+        line-height: 25px;
+    }
+
+    #left-teacher,
+    #center-teacher,
+    #right-teacher {
+    width: 100%;
+    }
+
+    #yoga-classes,
+    .yoga-schedule-image-container,
+    #meditation-classes,
+    .meditation-schedule-image-container {
+        width: 100%
     }
 
 }
