@@ -26,6 +26,18 @@ h2 {
     color: #333;
 }
 
+h3 {
+    text-align: center;
+}
+
+h3 > a {
+    color: #7c26cb;
+}
+
+h3 > a:hover {
+    color: #e28a2b;
+}
+
 #logo {
     float: left;
     font-size: 300%;
@@ -123,10 +135,15 @@ h2 {
 }
 
 #offerings-heading,
-#teachers-heading {
+#teachers-heading,
+#schedule-heading {
     font-size: 225%;
     text-align: center;
     margin: 35px 10px;
+}
+
+#schedule-heading {
+    clear: both;
 }
 
 #left-offerings,
