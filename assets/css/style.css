@@ -90,10 +90,6 @@ h3 > a:hover {
     font-weight: 700;
 }
 
-/* hr {
-    border: 1px solid #2a2a2a;
-} */
-
 /* Hero image and tagline */
 
 #hero-container {
@@ -206,18 +202,6 @@ h3 > a:hover {
 
 /* teacher section styles */
 
-/* #left-teacher {
-    float: left;
-}
-
-#right-teacher {
-    float: right;
-}
-
-#center-teacher {
-    margin: 0 auto;
-} */
-
 #left-teacher,
 #right-teacher,
 #center-teacher {
@@ -231,7 +215,6 @@ h3 > a:hover {
 #left-teacher-heading,
 #right-teacher-heading {
     line-height: 1.7em;
-    /* clear: both; */
     margin-bottom: 35px;
 }
 
@@ -473,32 +456,6 @@ footer {
 /* For large to medium screens sizes from 1450px wide and down */
 
 @media screen and (max-width: 1450px) {
-
-    /* #left-offerings,
-    #right-offerings { 
-        width: 70%;
-        clear: both;
-        display: block;
-        margin: 0 auto;
-    } */
-    
-    /* #left-offerings,
-    #right-offerings { 
-        width: 60%;
-        float: none;
-        clear: both;
-        display: block;
-        margin: 0 auto;
-    }
-
-    #right-offerings {
-        padding-top: 0;
-      }
-    
-    #teachers {
-        position: relative;
-        top: 100vh;
-    } */
     
     #left-teacher,
     #center-teacher,
@@ -536,11 +493,6 @@ footer {
         display: block;
         margin: 0 auto;
     }
-
-/* Not functioning - revisit - may require background-image property 
-    #offerings-image {
-    background-repeat: repeat-y;
-    } */
 
     #left-teacher,
     #center-teacher,
