@@ -573,6 +573,10 @@ footer {
         letter-spacing: 2px;
     }
 
+    #main-menu li { 
+        margin-right: 20px;
+    }
+
     #logo {
         font-size: 150%;
         letter-spacing: 2px;
