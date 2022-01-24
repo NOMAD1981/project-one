@@ -302,7 +302,7 @@ footer {
 /* Copyright and contact */
 #bottom-bar {
     text-align: center;
-    padding: 1%;
+    padding: 35px 20px 70px;
 }
 
 #bottom-bar a {
@@ -562,10 +562,6 @@ footer {
         width: 90%;
     }
 
-    .bt-top {
-        bottom: 85px;
-    }
-
     #bottom-bar p {
         font-size: 14px;
     }
@@ -598,30 +594,6 @@ footer {
     #schedule-heading {
         font-size: 200%;
     }
-
-    /* #teachers-heading,
-    #schedule-heading {
-    clear: both;
-    } */
-
-    /* #left-offerings,
-    #yoga-classes {
-        padding-top: 35px;
-    } */
-
-    /* #right-offerings,
-    #meditation-classes {
-        padding-top: 35px;
-    } */
-
-    /* .left-offerings-heading, 
-    .right-offerings-heading,
-    .times-heading {
-        line-height: 1.7em;
-        clear: both;
-        padding: 20px 35px 15px;
-        margin-bottom: 35px;
-    } */
 
     .left-offerings-heading h2, 
     .right-offerings-heading h2,
@@ -706,11 +678,6 @@ footer {
     .text-input {
         height: 20px;
         margin-bottom: 15px;
-    }
-
-    .bt-top {
-        bottom: 120px;
-        right: 10px;
     }
 }
 
