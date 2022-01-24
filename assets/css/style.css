@@ -487,6 +487,10 @@ footer {
         font-size: 14px;
     }
 
+    #tagline {
+        font-size: 80%;
+    }
+
     #left-offerings,
     #right-offerings { 
         width: 80%;
@@ -520,6 +524,10 @@ footer {
 
 @media screen and (max-width: 840px) {   
     
+    #tagline {
+        font-size: 70%;
+    }
+
     h3 { 
         font-size: 16px;
     }
