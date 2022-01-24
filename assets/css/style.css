@@ -354,7 +354,7 @@ footer {
 }
 
 .video {
-    max-width: 60%;
+    width: 70%;
     padding: 35px 0;
     display: block;
     margin: auto;
@@ -513,11 +513,6 @@ footer {
         display: block;
         margin: 0 auto;
     }
-
-    .video {
-        height: 100%;
-    }
-
 }
 
     /* For medium to small screens sizes from 840px wide and down */
@@ -552,6 +547,10 @@ footer {
     #meditation-classes,
     .meditation-schedule-image-container {
         width: 90%
+    }
+
+    .video {
+        width: 90%;
     }
 
 }
