@@ -536,17 +536,22 @@ footer {
         line-height: 25px;
     }
 
+    #left-offerings,
+    #right-offerings { 
+        width: 90%;
+    }
+
     #left-teacher,
     #center-teacher,
     #right-teacher {
-    width: 100%;
+    width: 90%;
     }
 
     #yoga-classes,
     .yoga-schedule-image-container,
     #meditation-classes,
     .meditation-schedule-image-container {
-        width: 100%
+        width: 90%
     }
 
 }
