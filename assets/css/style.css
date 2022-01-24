@@ -445,7 +445,7 @@ footer {
     text-transform: uppercase;
     font-family: 'Merriweather Sans', sans-serif;
     font-size: 14px;
-    background-color: rgba(226, 138, 43, .8);
+    background-color: rgb(226, 138, 43);
     padding: 10px;
 
     /* last 4 properties checked here https://www.w3schools.com/howto/howto_js_scroll_to_top.asp */
@@ -456,7 +456,7 @@ footer {
 }
 
 .bt-top:hover {
-    background-color: rgba(124, 38, 203, .8);
+    background-color: rgb(124, 38, 203);
 }
 
 .bt-top > a {
@@ -473,13 +473,39 @@ footer {
 /* For large to medium screens sizes from 1450px wide and down */
 
 @media screen and (max-width: 1450px) {
+
+    #left-offerings,
+    #right-offerings { 
+        width: 60%;
+        float: none;
+        clear: both;
+        display: block;
+        margin: 0 auto;
+    }
+
+    #right-offerings {
+        padding-top: 0;
+      }
+    
+    /* #teachers {
+        position: relative;
+        top: 800px;
+    } */
+
+    /* #teachers {
+        float: none;
+        clear: both;
+        display: block;
+        margin: 0 auto;
+    } */
+    
     #left-teacher,
     #center-teacher,
     #right-teacher {
-    width: 60%;
-    clear: both;
-    display: block;
-    margin: 0 auto;
+        width: 60%;
+        clear: both;
+        display: block;
+        margin: 0 auto;
     }
 }
 
@@ -502,11 +528,11 @@ footer {
         font-size: 14px;
     }
 
-    #left-offerings,
+    /* #left-offerings,
     #right-offerings { 
     width: 80%;
     clear: both;
-    }
+    } */
 
 /* Not functioning - revisit - may require background-image property 
     #offerings-image {
