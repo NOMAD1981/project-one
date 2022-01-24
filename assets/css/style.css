@@ -562,6 +562,13 @@ footer {
         width: 90%;
     }
 
+    .bt-top {
+        bottom: 85px;
+    }
+
+    #bottom-bar p {
+        font-size: 14px;
+    }
 }
 
 /* For small mobile screens sizes from 480px wide and down */
@@ -584,6 +591,126 @@ footer {
 
     #tagline {
         top: 125px;
+    }
+
+    #offerings-heading,
+    #teachers-heading,
+    #schedule-heading {
+        font-size: 200%;
+    }
+
+    /* #teachers-heading,
+    #schedule-heading {
+    clear: both;
+    } */
+
+    /* #left-offerings,
+    #yoga-classes {
+        padding-top: 35px;
+    } */
+
+    /* #right-offerings,
+    #meditation-classes {
+        padding-top: 35px;
+    } */
+
+    /* .left-offerings-heading, 
+    .right-offerings-heading,
+    .times-heading {
+        line-height: 1.7em;
+        clear: both;
+        padding: 20px 35px 15px;
+        margin-bottom: 35px;
+    } */
+
+    .left-offerings-heading h2, 
+    .right-offerings-heading h2,
+    .times-heading h2 {
+        font-size: 18px;
+        line-height: 1.7em;
+        letter-spacing: 3px;
+    }
+
+    .left-offerings-heading p, 
+    .right-offerings-heading p,
+    .times-heading p {
+        font-size: 14px;
+        line-height: 1.5em;
+    }
+
+    .offerings-cost {
+        padding-top: 10px;
+        text-align: left;
+    }
+
+    .offerings-cost > span,
+    .class-times > span {
+        font-weight: 600;
+    }
+
+    #left-teacher,
+    #right-teacher,
+    #center-teacher {
+        padding: 20px 0;
+    }
+
+    #left-teacher-heading,
+    #right-teacher-heading {
+        line-height: 1.5em;
+        margin-bottom: 20px;
+    }
+
+    #center-teacher-heading {
+        line-height: 1.5em;
+        margin-bottom: 20px;
+    }
+
+    #left-teacher-heading h2,
+    #right-teacher-heading h2,
+    #center-teacher-heading h2 {
+        font-size: 18px;
+        line-height: 1.7em;
+        letter-spacing: 3px;
+        padding: 20px 0 10px 0;
+    }
+
+    #left-teacher-heading p,
+    #right-teacher-heading p,
+    #center-teacher-heading p {
+        font-size: 14px;
+        line-height: 1.5em;
+        padding: 0 20px;
+    }
+
+    .teacher-image-container {
+        width: 270px;
+        height: 270px;
+    }
+
+    .interest-registration-form {
+        right: 0;
+        }
+    
+    #form h2 {
+        font-size: 18px;
+    }
+
+    #form label {
+        font-size: 14px;
+    }
+
+    #form p {
+        font-size: 14px;
+    }
+
+    .text-input {
+        height: 20px;
+        margin-bottom: 15px;
+    }
+
+    .bt-top {
+        bottom: 120px;
+        right: 10px;
     }
 }
 
