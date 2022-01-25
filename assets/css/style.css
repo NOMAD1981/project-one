@@ -632,7 +632,7 @@ footer {
     }
 
     #offerings-image {
-        background: none;
+        background: url("../images/lotus_bg-480X1500.png") no-repeat center center;
     }
 
     #offerings-heading,
@@ -749,7 +749,7 @@ footer {
     }
 
     #offerings-image {
-        background: none;
+        background: url("../images/lotus_bg-320X1500.png") no-repeat center center;
         /* height: 2500px; */
     }
 
@@ -757,3 +757,4 @@ footer {
         background: url("../images/lotus-flower-blossom-320X900px.jpg");
     }
 }
+
