@@ -570,8 +570,8 @@ footer {
     }
 
     #offerings-image {
-        background: url("../images/lotus_bg-840X2500px.png") no-repeat center center;
-        height: 2500px;
+        background: url("../images/lotus_bg-840X2000px.png") no-repeat center center;
+        /* height: 2500px; */
     }
 
     #left-offerings,
