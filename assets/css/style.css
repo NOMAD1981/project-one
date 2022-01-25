@@ -457,6 +457,21 @@ footer {
 /* For large to medium screens sizes from 1450px wide and down */
 
 @media screen and (max-width: 1450px) {
+
+    #hero-image {
+        background: url("../images/main-image-1450X600px.jpg") no-repeat center center;
+    }
+
+    #offerings-image {
+        background: url("../images/lotus_bg-1450X1000px.png") no-repeat center center;
+    }
+
+    #form {
+        background: url("../images/lotus-flower-blossom-1450X900px.jpg");
+        /* background-size: cover;
+        background-position: center;
+        height: 800px; */
+    }
     
     #left-teacher,
     #center-teacher,
