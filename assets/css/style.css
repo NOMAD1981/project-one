@@ -632,8 +632,7 @@ footer {
     }
 
     #offerings-image {
-        background: url("../images/lotus_bg-480X1500px.png") no-repeat center center;
-        /* height: 2500px; */
+        background: none;
     }
 
     #offerings-heading,
@@ -750,7 +749,7 @@ footer {
     }
 
     #offerings-image {
-        background: url("../images/lotus_bg-320X1500px.png") no-repeat center center;
+        background: none;
         /* height: 2500px; */
     }
 
