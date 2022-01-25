@@ -717,6 +717,16 @@ footer {
         background: url("../images/teacher-center.jpg-270px") no-repeat center center;
     }
 
+    #yoga-schedule-image {
+        background: url("../images/yoga-forward-stretch-440X480px.jpg") no-repeat center center;
+        height: 100%;
+    }
+    
+    #meditation-schedule-image {
+        background: url("../images/meditation-mala-beads-440X480px.jpg") no-repeat center center;
+        height: 100%;
+    }
+
     .interest-registration-form {
         right: 0;
         }
@@ -762,6 +772,16 @@ footer {
 
     #offerings-image {
         background: url("../images/lotus_bg-320X1500.png") no-repeat center center;
+    }
+
+    #yoga-schedule-image {
+        background: url("../images/yoga-forward-stretch-320X500px.jpg") no-repeat center center;
+        height: 100%;
+    }
+    
+    #meditation-schedule-image {
+        background: url("../images/meditation-mala-beads-320X500px.jpg") no-repeat center center;
+        height: 100%;
     }
 
     #form {
