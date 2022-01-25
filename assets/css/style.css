@@ -503,16 +503,13 @@ footer {
         background: url("../images/main-image-1200X600px.jpg") no-repeat center center;
     }
 
-    #offerings-image {
-        background: url("../images/lotus_bg-1200X2000px.png") no-repeat center center;
-    }
-
-    #form {
-        background: url("../images/lotus-flower-blossom-1200X900px.jpg");
-    }
-
     #tagline {
         font-size: 80%;
+    }
+
+    #offerings-image {
+        background: url("../images/lotus_bg-1200X2000px.png") no-repeat center center;
+        height: 2000px;
     }
 
     #left-offerings,
@@ -542,14 +539,22 @@ footer {
         display: block;
         margin: 0 auto;
     }
+
+    #form {
+        background: url("../images/lotus-flower-blossom-1200X900px.jpg");
+    }
 }
 
     /* For medium to small screens sizes from 840px wide and down */
 
-@media screen and (max-width: 840px) {   
-    
+@media screen and (max-width: 840px) {
+
     #tagline {
         font-size: 70%;
+    }
+
+    #hero-image {
+        background: url("../images/main-image-840X600px.jpg") no-repeat center center;
     }
 
     h3 { 
@@ -562,6 +567,11 @@ footer {
         margin-left: 35px;
         margin-bottom: 20px;
         line-height: 25px;
+    }
+
+    #offerings-image {
+        background: url("../images/lotus_bg-840X2500px.png") no-repeat center center;
+        height: 2500px;
     }
 
     #left-offerings,
@@ -589,6 +599,10 @@ footer {
     #bottom-bar p {
         font-size: 14px;
     }
+
+    #form {
+        background: url("../images/lotus-flower-blossom-840X900px.jpg");
+    }
 }
 
 /* For small mobile screens sizes from 480px wide and down */
@@ -609,8 +623,17 @@ footer {
         letter-spacing: 2px;
     }
 
+    #hero-image {
+        background: url("../images/main-image-480X600px.jpg") no-repeat center center;
+    }
+
     #tagline {
         top: 125px;
+    }
+
+    #offerings-image {
+        background: url("../images/lotus_bg-480X2500px.png") no-repeat center center;
+        /* height: 2500px; */
     }
 
     #offerings-heading,
@@ -687,6 +710,11 @@ footer {
         right: 0;
         }
     
+    #form {
+        background: url("../images/lotus-flower-blossom-480X900px.jpg");
+    }
+    
+    
     #form h2 {
         font-size: 18px;
     }
@@ -715,5 +743,18 @@ footer {
 
     #logo {
         font-size: 100%;
+    }
+
+    #hero-image {
+        background: url("../images/main-image-320X600px.jpg") no-repeat center center;
+    }
+
+    #offerings-image {
+        background: url("../images/lotus_bg-320X2500px.png") no-repeat center center;
+        /* height: 2500px; */
+    }
+
+    #form {
+        background: url("../images/lotus-flower-blossom-320X900px.jpg");
     }
 }
