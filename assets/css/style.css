@@ -87,7 +87,8 @@ h3 > a:hover {
     color: #e28a2b;
 }
 
-.active {
+#main-menu a.active {
+    color: #7c26cb;
     font-weight: 700;
 }
 
