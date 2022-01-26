@@ -137,13 +137,15 @@ h3 > a:hover {
 
 #offerings-heading,
 #teachers-heading,
-#schedule-heading {
+#schedule-heading,
+#thank-you-heading {
     font-size: 225%;
     text-align: center;
     margin: 35px 10px;
 }
 #teachers-heading,
-#schedule-heading {
+#schedule-heading,
+#thank-you-heading {
     clear: both;
 }
 
@@ -420,6 +422,31 @@ footer {
 .join-button:hover {
     background-color: #fafafa;
     color: #f16c6b;
+}
+
+/* Thank you section styles */
+
+#thank-you {
+    padding: 200px 70px;
+}
+
+#thank-you div {
+    padding-top: 35px;
+    text-align: center;
+}
+
+.return-home {
+    color: #7c26cb;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.return-home > a {
+    text-align: center;
+}
+
+.return-home:hover {
+    color: #e28a2b;
 }
 
 /* Back to top link style */
