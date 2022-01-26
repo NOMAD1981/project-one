@@ -624,6 +624,10 @@ footer {
     #form {
         background: url("../images/lotus-flower-blossom-840X900px.jpg");
     }
+
+    #thank-you {
+        padding: 200px 70px;
+    }
 }
 
 /* For small mobile screens sizes from 480px wide and down */
@@ -772,6 +776,18 @@ footer {
     .text-input {
         height: 20px;
         margin-bottom: 15px;
+    }
+
+    #thank-you {
+        padding: 100px 35px;
+    }
+
+    #thank-you h2 {
+        font-size: 175%;
+    }
+
+    #thank-you h3 {
+        font-size: 100%;
     }
 }
 
