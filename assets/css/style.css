@@ -422,13 +422,15 @@ footer {
     color: #f16c6b;
 }
 
-/* Back to top button style */
+/* Back to top link style */
 
 .bt-top {
     float: right;
     text-transform: uppercase;
     font-family: 'Merriweather Sans', sans-serif;
     font-size: 14px;
+    color: #2a2a2a;
+    text-decoration: none;
     background-color: rgb(226, 138, 43);
     padding: 10px;
 
@@ -440,16 +442,8 @@ footer {
 }
 
 .bt-top:hover {
-    background-color: rgb(124, 38, 203);
-}
-
-.bt-top > a {
-    color: #2a2a2a;
-    text-decoration: none;
-}
-
-.bt-top > a:hover {
     color: #fff;
+    background-color: rgb(124, 38, 203);
 }
 
 /* Media queries */
