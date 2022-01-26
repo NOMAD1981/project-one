@@ -625,6 +625,13 @@ footer {
         background: url("../images/lotus-flower-blossom-840X900px.jpg");
     }
 
+    .interest-registration-form {
+        position: relative;
+        top: 70px;
+        right: 0;
+        margin: 0 auto;
+    }
+
     #thank-you {
         padding: 200px 70px;
     }
@@ -773,6 +780,10 @@ footer {
         font-size: 14px;
     }
 
+    .interest-registration-form {
+        margin: 0 35px;
+    }
+
     .text-input {
         height: 20px;
         margin-bottom: 15px;
@@ -823,6 +834,11 @@ footer {
 
     #form {
         background: url("../images/lotus-flower-blossom-320X900px.jpg");
+    }
+
+    .interest-registration-form {
+        top: 20px;
+        margin: 0 20px;
     }
 }
 
