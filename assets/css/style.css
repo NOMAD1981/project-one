@@ -336,19 +336,14 @@ footer {
 .meditation-schedule-image-container {
     width: 47%;
     height: 475px;
-    border-style: solid;
-    border-color: #e28a2b;
-    border-width: 5px;
 }
 
 #yoga-schedule-image {
     background: url("../images/yoga-forward-stretch.jpg") no-repeat center center;
-    height: 100%;
 }
 
 #meditation-schedule-image {
     background: url("../images/meditation-mala-beads.jpg") no-repeat center center;
-    height: 100%;
 }
 
 #yoga-schedule-image,
@@ -427,7 +422,7 @@ footer {
 /* Thank you section styles */
 
 #thank-you {
-    padding: 200px 70px;
+    padding: 400px 0;
 }
 
 #thank-you div {
@@ -499,6 +494,10 @@ footer {
     #form {
         background: url("../images/lotus-flower-blossom-1450X900px.jpg");
     }
+
+    #thank-you {
+        padding: 300px 0;
+    }
 }
 
 
@@ -564,6 +563,10 @@ footer {
     #form {
         background: url("../images/lotus-flower-blossom-1200X900px.jpg");
     }
+
+    #thank-you {
+        padding: 200px 0;
+    }
 }
 
     /* For medium to small screens sizes from 840px wide and down */
@@ -592,7 +595,6 @@ footer {
 
     #offerings-image {
         background: url("../images/lotus_bg-840X2000px.png") no-repeat center center;
-        /* height: 2500px; */
     }
 
     #left-offerings,
@@ -790,7 +792,7 @@ footer {
     }
 
     #thank-you {
-        padding: 100px 35px;
+        padding: 150px 35px;
     }
 
     #thank-you h2 {
@@ -842,3 +844,122 @@ footer {
     }
 }
 
+/* media queries for specific device orientations */
+
+/* iPad Air */
+@media all and (device-width: 820px) and (device-height: 1180px) and (orientation:portrait) {
+    #thank-you {
+        padding: 330px 140px;
+    }
+}
+
+    /* iPad Mini */
+@media all and (device-width: 768px) and (device-height: 1024px) and (orientation:portrait) {
+    #thank-you {
+        padding: 260px 140px 230px;
+    }
+}
+
+    /* iPhone SE */
+@media all and (device-width: 375px) and (device-height: 667px) and (orientation:portrait) {
+    #thank-you {
+        padding: 150px 35px 35px;
+    }
+
+    #thank-you h2 {
+        font-size: 140%;
+    }
+}
+
+    /* iPhone XR */
+@media all and (device-width: 414px) and (device-height: 896px) and (orientation:portrait) {
+    #thank-you {
+        padding: 220px 35px 180px;
+    }
+}
+
+    /* iPhone 12 Pro */
+@media all and (device-width: 390px) and (device-height: 844px) and (orientation:portrait) {
+    #thank-you {
+         padding: 200px 35px 110px;
+    }
+}
+
+    /* Pixel 5 */
+@media all and (device-width: 393px) and (device-height: 851px) and (orientation:portrait) {
+    #thank-you {
+        padding: 200px 35px 120px;
+    }
+}
+
+    /* Samsung Galaxy S8+ */
+@media all and (device-width: 360px) and (device-height: 740px) and (orientation:portrait) {
+    #thank-you {
+        padding: 150px 35px 60px;
+    }
+}
+
+    /* Samsung S20 Ultra */
+@media all and (device-width: 412px) and (device-height: 915px) and (orientation:portrait) {
+    #thank-you {
+        padding: 230px 35px 190px;
+    }
+}
+
+    /* Surface Pro 7 */
+@media all and (device-width: 912px) and (device-height: 1368px) and (orientation:portrait) {
+    #thank-you {
+        padding: 440px 35px;
+    }
+}
+
+    /* Surface Duo */
+@media all and (device-width: 540px) and (device-height: 720px) and (orientation:portrait) {
+    #thank-you {
+        padding: 170px 70px 70px;
+    }
+
+    #thank-you h2 {
+        font-size: 160%;
+    }
+}
+
+    /* Galaxy Fold */
+@media all and (device-width: 280px) and (device-height: 653px) and (orientation:portrait) {
+    #thank-you {
+        padding: 150px 35px 35px;
+    }
+
+    #thank-you h2 {
+        font-size: 100%;
+    }
+
+    #thank-you h3 {
+        font-size: 75%;
+    }
+}
+
+    /* Samsung Galxy A51/71 */
+@media all and (device-width: 412px) and (device-height: 914px) and (orientation:portrait) {
+    #thank-you {
+        padding: 250px 10px 150px;
+    }
+}
+
+    /* Nest Hub */
+@media all and (device-width: 1024px) and (device-height: 600px) and (orientation:landscape) {
+    #thank-you {
+        padding: 90px 0 20px;
+    }
+
+    #thank-you h2 {
+        font-size: 160%;
+    }
+}
+
+    /* Nest Hub Max*/
+    @media all and (device-width: 1280px) and (device-height: 800px) and (orientation:landscape) {
+        #thank-you {
+            padding: 200px 0 70px;
+        }
+    }
