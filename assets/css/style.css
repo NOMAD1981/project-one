@@ -136,6 +136,9 @@ h3 > a:hover {
   float: right;
   margin-right: 2%;
 }
+.left-offerings-heading, .right-offerings-heading {
+    min-height: 300px;
+  }
 .left-offerings-heading, .right-offerings-heading, .times-heading {
   line-height: 1.7em;
   clear: both;
@@ -143,12 +146,18 @@ h3 > a:hover {
   margin-bottom: 35px;
   background-color: rgba(124, 38, 203, .9);
 }
+.left-offerings-heading h2, .right-offerings-heading h2 {
+    padding-bottom: 20px;
+  }
 .left-offerings-heading h2, .right-offerings-heading h2, .times-heading h2 {
   color: #fff;
   line-height: 2em;
   text-transform: uppercase;
   letter-spacing: 4px;
 }
+.left-offerings-heading p, .right-offerings-heading p {
+    padding-bottom: 20px;
+  }
 .left-offerings-heading p, .right-offerings-heading p, .times-heading p {
   color: #fff;
 }
