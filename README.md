@@ -1,10 +1,14 @@
 # **Buddhi Yoga Studio**
 
-Welcome NOMAD1981,
+Buddhi Yoga Studio (name) | Take your place at the seat of wisdom (tagline)
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+(In Sanskrit: <a href="https://www.yogajournal.com/yoga-101/sanskrit/200-key-sanskrit-yoga-terms/" target="_blank" rel="noopener">Buddhi (“she who is conscious, awake”): the higher mind, which is the seat of wisdom (vidya, jnana); cf. manas</a>)
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+Buddhi Yoga Studio is a website for adults looking to practice yoga and meditation in the Clare area. This site offers the user information on a range of yoga and meditation techniques covered, an introduction to the teachers, single class and block booking pricing, the studio schedule, and a contact form to contact the studio directly with any queries they may have.
+Buddhi Yoga Studio offers both in-studio and online classes via zoom.
+
+
+The last update to this file was: **January 28, 2022**
 
 ## Gitpod Reminders
 
