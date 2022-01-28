@@ -470,6 +470,15 @@ footer {
 
 /* Media queries */
 
+/* For large to large screens sizes from 1600px wide and down */
+
+@media screen and (max-width: 1650px) {
+
+    #thank-you {
+        padding: 270px 0 150px;
+    }
+}
+
 /* For large to medium screens sizes from 1460px wide and down */
 
 @media screen and (max-width: 1460px) {
@@ -496,7 +505,7 @@ footer {
     }
 
     #thank-you {
-        padding: 300px 0;
+        padding: 200px 0 70px;
     }
 }
 
@@ -565,7 +574,7 @@ footer {
     }
 
     #thank-you {
-        padding: 200px 0;
+        padding: 190px 0 100px;
     }
 }
 
@@ -635,9 +644,15 @@ footer {
     }
 
     #thank-you {
-        padding: 200px 70px;
+        padding: 300px 50px 250px;
+    }
+
+    #thank-you h2 {
+        font-size: 150%;
     }
 }
+
+    @media screen and (max-width: 840px) and (orientation:portrait) {
 
 /* For small mobile screens sizes from 480px wide and down */
 
@@ -792,11 +807,11 @@ footer {
     }
 
     #thank-you {
-        padding: 150px 35px;
+        padding: 120px 70px 35px;
     }
 
     #thank-you h2 {
-        font-size: 175%;
+        font-size: 150%;
     }
 
     #thank-you h3 {
@@ -842,123 +857,149 @@ footer {
         top: 20px;
         margin: 0 20px;
     }
+
+    #thank-you {
+        padding: 100px 10px 50px;
+    }
+
+    #thank-you h2 {
+        font-size: 150%;
+    }
+
+    #thank-you h3 {
+        font-size: 100%;
+    }
 }
 
 /* media queries for specific device orientations */
 
-/* iPad Air */
-@media all and (device-width: 820px) and (device-height: 1180px) and (orientation:portrait) {
-    #thank-you {
-        padding: 330px 140px;
+    /* iPad Air */
+    @media all and (device-width: 820px) and (device-height: 1180px) and (orientation:portrait) {
+        
+        #thank-you {
+            padding: 330px 140px;
+        }
     }
-}
 
     /* iPad Mini */
-@media all and (device-width: 768px) and (device-height: 1024px) and (orientation:portrait) {
-    #thank-you {
-        padding: 260px 140px 230px;
+    @media all and (device-width: 768px) and (device-height: 1024px) and (orientation:portrait) {
+        
+        #thank-you {
+            padding: 260px 140px 230px;
+        }
     }
-}
 
     /* iPhone SE */
-@media all and (device-width: 375px) and (device-height: 667px) and (orientation:portrait) {
-    #thank-you {
-        padding: 150px 35px 35px;
-    }
+    @media all and (device-width: 375px) and (device-height: 667px) and (orientation:portrait) {
+        
+        #thank-you {
+            padding: 150px 35px 35px;
+        }
 
-    #thank-you h2 {
-        font-size: 140%;
+        #thank-you h2 {
+            font-size: 140%;
+        }
     }
-}
 
     /* iPhone XR */
-@media all and (device-width: 414px) and (device-height: 896px) and (orientation:portrait) {
-    #thank-you {
-        padding: 220px 35px 180px;
+    @media all and (device-width: 414px) and (device-height: 896px) and (orientation:portrait) {
+        
+        #thank-you {
+            padding: 220px 35px 180px;
+        }
     }
-}
 
     /* iPhone 12 Pro */
-@media all and (device-width: 390px) and (device-height: 844px) and (orientation:portrait) {
-    #thank-you {
-         padding: 200px 35px 110px;
+    @media all and (device-width: 390px) and (device-height: 844px) and (orientation:portrait) {
+        
+        #thank-you {
+            padding: 200px 35px 110px;
+        }
     }
-}
 
     /* Pixel 5 */
-@media all and (device-width: 393px) and (device-height: 851px) and (orientation:portrait) {
-    #thank-you {
-        padding: 200px 35px 120px;
+    @media all and (device-width: 393px) and (device-height: 851px) and (orientation:portrait) {
+        
+        #thank-you {
+            padding: 200px 35px 120px;
+        }
     }
-}
 
     /* Samsung Galaxy S8+ */
-@media all and (device-width: 360px) and (device-height: 740px) and (orientation:portrait) {
-    #thank-you {
-        padding: 150px 35px 60px;
+    @media all and (device-width: 360px) and (device-height: 740px) and (orientation:portrait) {
+        
+        #thank-you {
+            padding: 150px 35px 60px;
+        }
     }
-}
 
     /* Samsung S20 Ultra */
-@media all and (device-width: 412px) and (device-height: 915px) and (orientation:portrait) {
-    #thank-you {
-        padding: 230px 35px 190px;
+    @media all and (device-width: 412px) and (device-height: 915px) and (orientation:portrait) {
+        
+        #thank-you {
+            padding: 230px 35px 190px;
+        }
     }
-}
 
     /* Surface Pro 7 */
-@media all and (device-width: 912px) and (device-height: 1368px) and (orientation:portrait) {
-    #thank-you {
-        padding: 440px 35px;
+    @media all and (device-width: 912px) and (device-height: 1368px) and (orientation:portrait) {
+        
+        #thank-you {
+            padding: 440px 35px;
+        }
     }
-}
 
     /* Surface Duo */
-@media all and (device-width: 540px) and (device-height: 720px) and (orientation:portrait) {
-    #thank-you {
-        padding: 170px 70px 70px;
-    }
+    @media all and (device-width: 540px) and (device-height: 720px) and (orientation:portrait) {
+        
+        #thank-you {
+            padding: 170px 70px 70px;
+        }
 
-    #thank-you h2 {
-        font-size: 160%;
+        #thank-you h2 {
+            font-size: 160%;
+        }
     }
-}
 
     /* Galaxy Fold */
-@media all and (device-width: 280px) and (device-height: 653px) and (orientation:portrait) {
-    #thank-you {
-        padding: 150px 35px 35px;
-    }
+    @media all and (device-width: 280px) and (device-height: 653px) and (orientation:portrait) {
+        
+        #thank-you {
+            padding: 150px 35px 35px;
+        }
 
-    #thank-you h2 {
-        font-size: 100%;
-    }
+        #thank-you h2 {
+            font-size: 100%;
+        }
 
-    #thank-you h3 {
-        font-size: 75%;
+        #thank-you h3 {
+            font-size: 75%;
+        }
     }
-}
 
     /* Samsung Galxy A51/71 */
-@media all and (device-width: 412px) and (device-height: 914px) and (orientation:portrait) {
-    #thank-you {
-        padding: 250px 10px 150px;
+    @media all and (device-width: 412px) and (device-height: 914px) and (orientation:portrait) {
+        
+        #thank-you {
+            padding: 250px 10px 150px;
+        }
     }
-}
 
     /* Nest Hub */
-@media all and (device-width: 1024px) and (device-height: 600px) and (orientation:landscape) {
-    #thank-you {
-        padding: 90px 0 20px;
-    }
+    @media all and (device-width: 1024px) and (device-height: 600px) and (orientation:landscape) {
+        
+        #thank-you {
+            padding: 90px 0 20px;
+        }
 
-    #thank-you h2 {
-        font-size: 160%;
+        #thank-you h2 {
+            font-size: 160%;
+        }
     }
-}
 
     /* Nest Hub Max*/
     @media all and (device-width: 1280px) and (device-height: 800px) and (orientation:landscape) {
+        
         #thank-you {
             padding: 200px 0 70px;
         }
