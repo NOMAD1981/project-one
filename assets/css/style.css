@@ -1,1006 +1,788 @@
+@charset "utf-8";
 @import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Merriweather+Sans&display=swap');
 
 /* clear browser defaults */
 * {
-    margin: 0;
-    padding: 0;
-    border: 0;
+  margin: 0;
+  padding: 0;
+  border: 0;
 }
-
 body {
-    font-family: 'Merriweather Sans', sans-serif;
-    color: #333;
+  font-family: 'Merriweather Sans', sans-serif;
+  color: #333;
 }
 
 /* header and logo styles */
-
 h1, h2 {
-    font-family: 'Merriweather', serif;
+  font-family: 'Merriweather', serif;
 }
-
 h1 {
-    color: #7c26cb;
+  color: #7c26cb;
 }
-
 h2 {
-    color: #333;
+  color: #333;
 }
-
 h3 {
-    text-align: center;
-    padding: 0 35px;
+  text-align: center;
+  padding: 0 35px;
 }
-
 h3 > a {
-    color: #7c26cb;
+  color: #7c26cb;
 }
-
 h3 > a:hover {
-    color: #e28a2b;
+  color: #e28a2b;
 }
-
 #logo {
-    float: left;
-    font-size: 300%;
-    margin-left: 35px;
-    letter-spacing: 4px;
+  float: left;
+  font-size: 300%;
+  margin-left: 35px;
+  letter-spacing: 4px;
 
-    /* Animates logo zoom effect on loading the page */
-    animation-name: logo-zoom;
-    animation-duration: 3s;
-    animation-fill-mode: forwards;
+  /* Animates logo zoom effect on loading the page */
+  animation-name: logo-zoom;
+  animation-duration: 3s;
+  animation-fill-mode: forwards;
 }
 
 /* Creates the level of zoom for logo */
-@keyframes  logo-zoom {
-    from {
-        transform: scale(0.7);
-    }
-    to {
-        transform: scale(1);
-    }
+@keyframes logo-zoom {
+  from {
+    transform: scale(0.7);
+  }
+  to {
+    transform: scale(1);
+  }
 }
 
 /* navigation link styles */
-
 #main-menu {
-    text-transform: uppercase;
-    letter-spacing: 2px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
 }
-
 #logo, #main-menu {
-    line-height: 100px;
+  line-height: 100px;
 }
-
 #main-menu li {
-    float: right;
-    list-style-type: none;
-    margin-right: 35px
+  float: right;
+  list-style-type: none;
+  margin-right: 35px
 }
-
 #main-menu a {
-    text-decoration: none;
-    color: #333;
+  text-decoration: none;
+  color: #333;
 }
-
 #main-menu a:hover {
-    color: #e28a2b;
+  color: #e28a2b;
 }
-
 #main-menu a.active {
-    color: #7c26cb;
-    font-weight: 700;
+  color: #7c26cb;
+  font-weight: 700;
 }
 
 /* Hero image and tagline */
-
 #hero-container {
-    height: 600px;
-    width: 100%;
-    overflow: hidden;
-    position: relative;
+  height: 600px;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
 }
-
 #hero-image {
-    height: 600px;
-    width: 100%;
-    background: url("../images/main-image.jpg") no-repeat center center;
+  height: 600px;
+  width: 100%;
+  background: url("../images/main-image.jpg") no-repeat center center;
 }
-
 #tagline h2 {
-    color: #fff;
+  color: #fff;
 }
-
 #tagline {
-    font-size: 100%;
-    font-family: 'Merriweather', serif;
-    text-align: center;
-    width: 50%;
-    height: auto;
-    padding: 20px 15px;
-    margin: 0 auto;
-    top: 250px;
-    background-color: rgba(226, 138, 43, .8);
-    position: relative;
+  font-size: 100%;
+  font-family: 'Merriweather', serif;
+  text-align: center;
+  width: 50%;
+  height: auto;
+  padding: 20px 15px;
+  margin: 0 auto;
+  top: 250px;
+  background-color: rgba(226, 138, 43, .8);
+  position: relative;
 }
 
 /* offerings section styles */
-
 #offerings {
-    height: auto;
+  height: auto;
 }
-
 #offerings-image {
-    background: url("../images/lotus_bg.png") no-repeat center center;
-    height: 1050px;
-    width: 100%;
+  background: url("../images/lotus_bg.png") no-repeat center center;
+  height: 1050px;
+  width: 100%;
 }
-
-#offerings-heading,
-#teachers-heading,
-#schedule-heading,
-#thank-you-heading {
-    font-size: 225%;
-    text-align: center;
-    margin: 35px 10px;
+#offerings-heading, #teachers-heading, #schedule-heading, #thank-you-heading {
+  font-size: 225%;
+  text-align: center;
+  margin: 35px 10px;
 }
-#teachers-heading,
-#schedule-heading,
-#thank-you-heading {
-    clear: both;
+#teachers-heading, #schedule-heading, #thank-you-heading {
+  clear: both;
 }
-
-#left-offerings,
-#yoga-classes {
-    padding-top: 35px;
-    width: 47%;
-    float: left;
-    margin-left: 2%;
+#left-offerings, #yoga-classes {
+  padding-top: 35px;
+  width: 47%;
+  float: left;
+  margin-left: 2%;
 }
-
-#right-offerings,
-#meditation-classes {
-    padding-top: 35px;
-    width: 47%;
-    float: right;
-    margin-right: 2%;
+#right-offerings, #meditation-classes {
+  padding-top: 35px;
+  width: 47%;
+  float: right;
+  margin-right: 2%;
 }
-
-.left-offerings-heading, 
-.right-offerings-heading,
-.times-heading {
-    line-height: 1.7em;
-    clear: both;
-    padding: 20px 35px 15px;
-    margin-bottom: 35px;
-    background-color: rgba(124, 38, 203, .9);
+.left-offerings-heading, .right-offerings-heading, .times-heading {
+  line-height: 1.7em;
+  clear: both;
+  padding: 20px 35px 15px;
+  margin-bottom: 35px;
+  background-color: rgba(124, 38, 203, .9);
 }
-
-.left-offerings-heading h2, 
-.right-offerings-heading h2,
-.times-heading h2 {
-    color: #fff;
-    line-height: 2em;
-    text-transform: uppercase;
-    letter-spacing: 4px;
+.left-offerings-heading h2, .right-offerings-heading h2, .times-heading h2 {
+  color: #fff;
+  line-height: 2em;
+  text-transform: uppercase;
+  letter-spacing: 4px;
 }
-
-.left-offerings-heading p, 
-.right-offerings-heading p,
-.times-heading p {
-    color: #fff;
+.left-offerings-heading p, .right-offerings-heading p, .times-heading p {
+  color: #fff;
 }
-
 .offerings-cost {
-    color: #f9f9f9;
-    text-align: right;
+  color: #f9f9f9;
+  text-align: right;
 }
-
-.offerings-cost > span,
-.class-times > span {
-    font-family: 'Merriweather', serif;
-    font-weight: 700;
-    text-transform: uppercase;
-    letter-spacing: 2px;
+.offerings-cost > span, .class-times > span {
+  font-family: 'Merriweather', serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 2px;
 }
 
 /* teacher section styles */
-
-#left-teacher,
-#right-teacher,
-#center-teacher {
-    padding: 35px 0;
-    width: 33%;
-    height: auto;
-    display: inline-block;
-    text-align: center;
+#left-teacher, #right-teacher, #center-teacher {
+  padding: 35px 0;
+  width: 33%;
+  height: auto;
+  display: inline-block;
+  text-align: center;
 }
-
-#left-teacher-heading,
-#right-teacher-heading {
-    line-height: 1.7em;
-    margin-bottom: 35px;
+#left-teacher-heading, #right-teacher-heading {
+  line-height: 1.7em;
+  margin-bottom: 35px;
 }
-
 #center-teacher-heading {
-    line-height: 1.7em;
-    margin-bottom: 35px;
+  line-height: 1.7em;
+  margin-bottom: 35px;
 }
-
-#left-teacher-heading h2,
-#right-teacher-heading h2,
-#center-teacher-heading h2 {
-    color: #2a2a2a;
-    line-height: 2em;
-    text-transform: uppercase;
-    letter-spacing: 4px;
-    padding: 35px 0 15px 0;
+#left-teacher-heading h2, #right-teacher-heading h2, #center-teacher-heading h2 {
+  color: #2a2a2a;
+  line-height: 2em;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  padding: 35px 0 15px 0;
 }
-
-#left-teacher-heading p,
-#right-teacher-heading p,
-#center-teacher-heading p {
-    padding: 0 35px;
+#left-teacher-heading p, #right-teacher-heading p, #center-teacher-heading p {
+  padding: 0 35px;
 }
 
 /* teacher section circular imagery */
-
 .teacher-image-container {
-    width: 300px;
-    height: 300px;
-    padding: 0px;
-    border-style: solid;
-    border-color: #e28a2b;
-    border-width: 5px;
-    border-radius: 50%;
-    margin: 0 auto;
+  width: 300px;
+  height: 300px;
+  padding: 0px;
+  border-style: solid;
+  border-color: #e28a2b;
+  border-width: 5px;
+  border-radius: 50%;
+  margin: 0 auto;
 }
-
 #left-teacher-image {
-    background: url("../images/teacher-left.jpg") no-repeat center center;
+  background: url("../images/teacher-left.jpg") no-repeat center center;
 }
-
 #right-teacher-image {
-    background: url("../images/teacher-right.jpg") no-repeat center center;
+  background: url("../images/teacher-right.jpg") no-repeat center center;
 }
-
 #center-teacher-image {
-    background: url("../images/teacher-center.jpg") no-repeat center center;
+  background: url("../images/teacher-center.jpg") no-repeat center center;
 }
-
-#left-teacher-image,
-#right-teacher-image,
-#center-teacher-image {
-    height: 100%;
-    border-radius: 50%;
+#left-teacher-image, #right-teacher-image, #center-teacher-image {
+  height: 100%;
+  border-radius: 50%;
 }
 
 /* Footer */
-
 footer {
-    height: 100px;
+  height: 100px;
 }
-
 .social-networks {
-    text-align: center;
-    background-color: #7c26cb;
+  text-align: center;
+  background-color: #7c26cb;
 }
-
 .social-networks li {
-    display: inline;
+  display: inline;
 }
-
 .social-networks i {
-    font-size: 200%;
-    margin: 1%;
-    padding: 5%;
-    color: #fafafa;
+  font-size: 200%;
+  margin: 1%;
+  padding: 5%;
+  color: #fafafa;
 }
-
 .social-networks i:hover {
-    color: #e28a2b;
+  color: #e28a2b;
 }
 
 /* Copyright and contact */
 #bottom-bar {
-    text-align: center;
-    padding: 35px 20px 70px;
+  text-align: center;
+  padding: 35px 20px 70px;
 }
-
 #bottom-bar a {
-    color: #7c26cb;
+  color: #7c26cb;
 }
 
 /* Schedule styles */
-
-#yoga-class-schedule,
-#meditation-class-schedule {
-    clear: both;
-    height: auto;
-    width: 100%;
-    overflow: hidden; 
-    position: relative;
+#yoga-class-schedule, #meditation-class-schedule {
+  clear: both;
+  height: auto;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
 }
-
 .yoga-schedule-image-container {
-    float: right;
-    margin: 35px 2% 0 0;
+  float: right;
+  margin: 35px 2% 0 0;
 }
-
 .meditation-schedule-image-container {
-    float: left;
-    margin: 35px 0 0 2%;
+  float: left;
+  margin: 35px 0 0 2%;
 }
-
-.yoga-schedule-image-container,
-.meditation-schedule-image-container {
-    width: 47%;
-    height: 475px;
+.yoga-schedule-image-container, .meditation-schedule-image-container {
+  width: 47%;
+  height: 475px;
 }
-
 #yoga-schedule-image {
-    background: url("../images/yoga-forward-stretch.jpg") no-repeat center center;
+  background: url("../images/yoga-forward-stretch.jpg") no-repeat center center;
 }
-
 #meditation-schedule-image {
-    background: url("../images/meditation-mala-beads.jpg") no-repeat center center;
+  background: url("../images/meditation-mala-beads.jpg") no-repeat center center;
 }
-
-#yoga-schedule-image,
-#meditation-schedule-image {
-    height: 100%;
+#yoga-schedule-image, #meditation-schedule-image {
+  height: 100%;
 }
-
 .video {
-    width: 70%;
-    padding: 35px 0;
-    display: block;
-    margin: auto;
+  width: 70%;
+  padding: 35px 0;
+  display: block;
+  margin: auto;
 }
 
 /* Enquiry form */
-
 #form {
-    clear: both;
-    background: url("../images/lotus-flower-blossom.jpg");
-    background-size: cover;
-    background-position: center;
-    height: 800px;
+  clear: both;
+  background: url("../images/lotus-flower-blossom.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 800px;
 }
-
 .interest-registration-form {
-    margin: 75px 75px 0 0;
-    color: #2a2a2a;
-    background-color: rgb(226, 138, 43);
-    max-width: 400px;
-    position: absolute;
-    right: 5%;
-    padding: 25px;
+  margin: 75px 75px 0 0;
+  color: #2a2a2a;
+  background-color: rgb(226, 138, 43);
+  max-width: 400px;
+  position: absolute;
+  right: 5%;
+  padding: 25px;
 }
-
 .interest-registration-form > h2 {
-    color: #2a2a2a;
-    margin-bottom: 20px;
+  color: #2a2a2a;
+  margin-bottom: 20px;
 }
-
 .text-input {
-    background: transparent;
-    color: #2a2a2a;
-    width: 100%;
-    height: 25px;
-    margin: 5px 0 20px 0;
-    border: 1px solid #fafafa;
-    border-radius: 2px;
+  background: transparent;
+  color: #2a2a2a;
+  width: 100%;
+  height: 25px;
+  margin: 5px 0 20px 0;
+  border: 1px solid #fafafa;
+  border-radius: 2px;
 }
-
 .text-input:hover {
-    border-color: #7c26cb;
+  border-color: #7c26cb;
 }
-
-#class-options,
-#studio-online {
-    margin-bottom: 20px;
+#class-options, #studio-online {
+  margin-bottom: 20px;
 }
-
 .join-button {
-    margin-top: 20px;
-    border-radius: 2px;
-    padding: 15px 32px 15px 32px;
-    text-align: center;
-    text-transform: uppercase;
-    font-size: 100%;
-    background-color: #7c26cb;
-    color: #fafafa;
-    display: block;
+  margin-top: 20px;
+  border-radius: 2px;
+  padding: 15px 32px 15px 32px;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 100%;
+  background-color: #7c26cb;
+  color: #fafafa;
+  display: block;
 }
-
 .join-button:hover {
-    background-color: #fafafa;
-    color: #f16c6b;
+  background-color: #fafafa;
+  color: #f16c6b;
 }
 
 /* Thank you section styles */
-
 #thank-you {
-    padding: 400px 0;
+  padding: 400px 0;
 }
-
 #thank-you div {
-    padding-top: 35px;
-    text-align: center;
+  padding-top: 35px;
+  text-align: center;
 }
-
 .return-home {
-    color: #7c26cb;
-    text-transform: uppercase;
-    text-decoration: none;
+  color: #7c26cb;
+  text-transform: uppercase;
+  text-decoration: none;
 }
-
 .return-home > a {
-    text-align: center;
+  text-align: center;
 }
-
 .return-home:hover {
-    color: #e28a2b;
+  color: #e28a2b;
 }
 
 /* Back to top link style */
-
 .bt-top {
-    float: right;
-    text-transform: uppercase;
-    font-family: 'Merriweather Sans', sans-serif;
-    font-size: 14px;
-    color: #2a2a2a;
-    text-decoration: none;
-    background-color: rgb(226, 138, 43);
-    padding: 10px;
-
-    /* last 4 properties checked here https://www.w3schools.com/howto/howto_js_scroll_to_top.asp */
-    position: fixed; /* Fixed/sticky position */
-    bottom: 20px; /* Place the button at the bottom of the page */
-    right: 30px; /* Place the button 30px from the right */
-    z-index: 99; /* Make sure it does not overlap */
+  float: right;
+  text-transform: uppercase;
+  font-family: 'Merriweather Sans', sans-serif;
+  font-size: 14px;
+  color: #2a2a2a;
+  text-decoration: none;
+  background-color: rgb(226, 138, 43);
+  padding: 10px;
+  /* last 4 properties checked here https://www.w3schools.com/howto/howto_js_scroll_to_top.asp */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 20px; /* Place the button at the bottom of the page */
+  right: 30px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
 }
-
 .bt-top:hover {
-    color: #fff;
-    background-color: rgb(124, 38, 203);
+  color: #fff;
+  background-color: rgb(124, 38, 203);
 }
 
 /* Media queries */
 
-/* For large to large screens sizes from 1600px wide and down */
-
-@media screen and (max-width: 1650px) {
-
+/* For large to large screens sizes from 1920px wide and down */
+@media screen and (max-width: 1920px) {
     #thank-you {
-        padding: 270px 0 150px;
+      padding: 270px 0 150px;
     }
+  }
+
+/* For large to large screens sizes from 1600px wide and down */
+@media screen and (max-width: 1650px) {
+  #thank-you {
+    padding: 270px 0 150px;
+  }
 }
 
 /* For large to medium screens sizes from 1460px wide and down */
-
 @media screen and (max-width: 1460px) {
-
-    #hero-image {
-        background: url("../images/main-image-1450X600px.jpg") no-repeat center center;
-    }
-
-    #offerings-image {
-        background: url("../images/lotus_bg-1450X1000px.png") no-repeat center center;
-    }
-    
-    #left-teacher,
-    #center-teacher,
-    #right-teacher {
-        width: 60%;
-        clear: both;
-        display: block;
-        margin: 0 auto;
-    }
-
-    #form {
-        background: url("../images/lotus-flower-blossom-1450X900px.jpg");
-    }
-
-    #thank-you {
-        padding: 200px 0 70px;
-    }
+  #hero-image {
+    background: url("../images/main-image-1450X600px.jpg") no-repeat center center;
+  }
+  #offerings-image {
+    background: url("../images/lotus_bg-1450X1000px.png") no-repeat center center;
+  }
+  #left-teacher, #center-teacher, #right-teacher {
+    width: 60%;
+    clear: both;
+    display: block;
+    margin: 0 auto;
+  }
+  #form {
+    background: url("../images/lotus-flower-blossom-1450X900px.jpg");
+  }
+  #thank-you {
+    padding: 200px 0 70px;
+  }
 }
 
-
 /* For large to medium screens sizes from 1200px wide and down */
-
-@media screen and (max-width: 1200px) { 
-
-    #logo {
-        font-size: 200%;
-        margin-left: 35px;
-        letter-spacing: 3px;
-    }
-
-    #logo, #main-menu {
-        line-height: 75px;
-    }
-
-    #main-menu {
-        font-size: 14px;
-    }
-
-    #hero-image {
-        background: url("../images/main-image-1200X600px.jpg") no-repeat center center;
-    }
-
-    #tagline {
-        font-size: 80%;
-    }
-
-    #offerings-image {
-        background: url("../images/lotus_bg-1200X2000px.png") no-repeat center center;
-        height: 2000px;
-    }
-
-    #left-offerings,
-    #right-offerings { 
-        width: 80%;
-        clear: both;
-        display: block;
-        margin: 0 auto;
-    }
-
-    #left-teacher,
-    #center-teacher,
-    #right-teacher {
+@media screen and (max-width: 1200px) {
+  #logo {
+    font-size: 200%;
+    margin-left: 35px;
+    letter-spacing: 3px;
+  }
+  #logo, #main-menu {
+    line-height: 75px;
+  }
+  #main-menu {
+    font-size: 14px;
+  }
+  #hero-image {
+    background: url("../images/main-image-1200X600px.jpg") no-repeat center center;
+  }
+  #tagline {
+    font-size: 80%;
+  }
+  #offerings-image {
+    background: url("../images/lotus_bg-1200X2000px.png") no-repeat center center;
+    height: 2000px;
+  }
+  #left-offerings, #right-offerings {
+    width: 80%;
+    clear: both;
+    display: block;
+    margin: 0 auto;
+  }
+  #left-teacher, #center-teacher, #right-teacher {
     width: 70%;
     clear: both;
     display: block;
     margin: 0 auto;
-    }
-
-    #yoga-classes,
-    .yoga-schedule-image-container,
-    #meditation-classes,
-    .meditation-schedule-image-container {
-        width: 70%;
-        float: none;
-        clear: both;
-        display: block;
-        margin: 0 auto;
-    }
-
-    #form {
-        background: url("../images/lotus-flower-blossom-1200X900px.jpg");
-    }
-
-    #thank-you {
-        padding: 190px 0 100px;
-    }
+  }
+  #yoga-classes, .yoga-schedule-image-container, #meditation-classes, .meditation-schedule-image-container {
+    width: 70%;
+    float: none;
+    clear: both;
+    display: block;
+    margin: 0 auto;
+  }
+  #form {
+    background: url("../images/lotus-flower-blossom-1200X900px.jpg");
+  }
+  #thank-you {
+    padding: 190px 0 100px;
+  }
 }
 
-    /* For medium to small screens sizes from 840px wide and down */
-
+/* For medium to small screens sizes from 840px wide and down */
 @media screen and (max-width: 840px) {
-
-    #tagline {
-        font-size: 70%;
-    }
-
-    #hero-image {
-        background: url("../images/main-image-840X600px.jpg") no-repeat center center;
-    }
-
-    h3 { 
-        font-size: 16px;
-    }
-    
-    #main-menu {
-        clear: left;
-        float: left;
-        margin-left: 35px;
-        margin-bottom: 20px;
-        line-height: 25px;
-    }
-
-    #offerings-image {
-        background: url("../images/lotus_bg-840X2000px.png") no-repeat center center;
-    }
-
-    #left-offerings,
-    #right-offerings { 
-        width: 90%;
-    }
-
-    #left-teacher,
-    #center-teacher,
-    #right-teacher {
+  #tagline {
+    font-size: 70%;
+  }
+  #hero-image {
+    background: url("../images/main-image-840X600px.jpg") no-repeat center center;
+  }
+  h3 {
+    font-size: 16px;
+  }
+  #main-menu {
+    clear: left;
+    float: left;
+    margin-left: 35px;
+    margin-bottom: 20px;
+    line-height: 25px;
+  }
+  #offerings-image {
+    background: url("../images/lotus_bg-840X2000px.png") no-repeat center center;
+  }
+  #left-offerings, #right-offerings {
     width: 90%;
-    }
-
-    #yoga-classes,
-    .yoga-schedule-image-container,
-    #meditation-classes,
-    .meditation-schedule-image-container {
-        width: 90%
-    }
-
-    .video {
-        width: 90%;
-    }
-
-    #bottom-bar p {
-        font-size: 14px;
-    }
-
-    #form {
-        background: url("../images/lotus-flower-blossom-840X900px.jpg");
-    }
-
-    .interest-registration-form {
-        position: relative;
-        top: 70px;
-        right: 0;
-        margin: 0 auto;
-    }
-
-    #thank-you {
-        padding: 300px 50px 250px;
-    }
-
-    #thank-you h2 {
-        font-size: 150%;
-    }
+  }
+  #left-teacher, #center-teacher, #right-teacher {
+    width: 90%;
+  }
+  #yoga-classes, .yoga-schedule-image-container, #meditation-classes, .meditation-schedule-image-container {
+    width: 90%
+  }
+  .video {
+    width: 90%;
+  }
+  #bottom-bar p {
+    font-size: 14px;
+  }
+  #form {
+    background: url("../images/lotus-flower-blossom-840X900px.jpg");
+  }
+  .interest-registration-form {
+    position: relative;
+    top: 70px;
+    right: 0;
+    margin: 0 auto;
+  }
+  #thank-you {
+    padding: 300px 50px 250px;
+  }
+  #thank-you h2 {
+    font-size: 150%;
+  }
 }
 
-    @media screen and (max-width: 840px) and (orientation:portrait) {
-
-/* For small mobile screens sizes from 480px wide and down */
-
-@media screen and (max-width: 480px) {
-
-    h3, #main-menu { 
-        font-size: 12px;
-        letter-spacing: 2px;
+  /* For small mobile screens sizes from 480px wide and down */
+  @media screen and (max-width: 480px) {
+    h3, #main-menu {
+      font-size: 12px;
+      letter-spacing: 2px;
     }
-
-    #main-menu li { 
-        margin-right: 20px;
+    #main-menu li {
+      margin-right: 20px;
     }
-
     #logo {
-        font-size: 150%;
-        letter-spacing: 2px;
+      font-size: 150%;
+      letter-spacing: 2px;
     }
-
     #hero-image {
-        background: url("../images/main-image-480X600px.jpg") no-repeat center center;
+      background: url("../images/main-image-480X600px.jpg") no-repeat center center;
     }
-
     #tagline {
-        top: 125px;
+      top: 125px;
     }
-
     #offerings-image {
-        background: url("../images/lotus_bg-480X1500.png") no-repeat center center;
+      background: url("../images/lotus_bg-480X1500.png") no-repeat center center;
     }
-
-    #offerings-heading,
-    #teachers-heading,
-    #schedule-heading {
-        font-size: 200%;
+    #offerings-heading, #teachers-heading, #schedule-heading {
+      font-size: 200%;
     }
-
-    .left-offerings-heading h2, 
-    .right-offerings-heading h2,
-    .times-heading h2 {
-        font-size: 18px;
-        line-height: 1.7em;
-        letter-spacing: 3px;
+    .left-offerings-heading h2, .right-offerings-heading h2, .times-heading h2 {
+      font-size: 18px;
+      line-height: 1.7em;
+      letter-spacing: 3px;
     }
-
-    .left-offerings-heading p, 
-    .right-offerings-heading p,
-    .times-heading p {
-        font-size: 14px;
-        line-height: 1.5em;
+    .left-offerings-heading p, .right-offerings-heading p, .times-heading p {
+      font-size: 14px;
+      line-height: 1.5em;
     }
-
     .offerings-cost {
-        padding-top: 10px;
-        text-align: left;
+      padding-top: 10px;
+      text-align: left;
     }
-
-    .offerings-cost > span,
-    .class-times > span {
-        font-weight: 600;
+    .offerings-cost > span, .class-times > span {
+      font-weight: 600;
     }
-
-    #left-teacher,
-    #right-teacher,
-    #center-teacher {
-        padding: 20px 0;
+    #left-teacher, #right-teacher, #center-teacher {
+      padding: 20px 0;
     }
-
-    #left-teacher-heading,
-    #right-teacher-heading {
-        line-height: 1.5em;
-        margin-bottom: 20px;
+    #left-teacher-heading, #right-teacher-heading {
+      line-height: 1.5em;
+      margin-bottom: 20px;
     }
-
     #center-teacher-heading {
-        line-height: 1.5em;
-        margin-bottom: 20px;
+      line-height: 1.5em;
+      margin-bottom: 20px;
     }
-
-    #left-teacher-heading h2,
-    #right-teacher-heading h2,
-    #center-teacher-heading h2 {
-        font-size: 18px;
-        line-height: 1.7em;
-        letter-spacing: 3px;
-        padding: 20px 0 10px 0;
+    #left-teacher-heading h2, #right-teacher-heading h2, #center-teacher-heading h2 {
+      font-size: 18px;
+      line-height: 1.7em;
+      letter-spacing: 3px;
+      padding: 20px 0 10px 0;
     }
-
-    #left-teacher-heading p,
-    #right-teacher-heading p,
-    #center-teacher-heading p {
-        font-size: 14px;
-        line-height: 1.5em;
-        padding: 0 20px;
+    #left-teacher-heading p, #right-teacher-heading p, #center-teacher-heading p {
+      font-size: 14px;
+      line-height: 1.5em;
+      padding: 0 20px;
     }
-
     .teacher-image-container {
-        width: 270px;
-        height: 270px;
+      width: 270px;
+      height: 270px;
     }
-
     #left-teacher-image {
-        background: url("../images/teacher-left-270px.jpg") no-repeat center center;
+      background: url("../images/teacher-left-270px.jpg") no-repeat center center;
     }
-    
     #right-teacher-image {
-        background: url("../images/teacher-right-270px.jpg") no-repeat center center;
+      background: url("../images/teacher-right-270px.jpg") no-repeat center center;
     }
-    
     #center-teacher-image {
-        background: url("../images/teacher-center-270px.jpg") no-repeat center center;
+      background: url("../images/teacher-center-270px.jpg") no-repeat center center;
     }
-
     #yoga-schedule-image {
-        background: url("../images/yoga-forward-stretch-440X480px.jpg") no-repeat center center;
-        height: 100%;
+      background: url("../images/yoga-forward-stretch-440X480px.jpg") no-repeat center center;
+      height: 100%;
     }
-    
     #meditation-schedule-image {
-        background: url("../images/meditation-mala-beads-440X480px.jpg") no-repeat center center;
-        height: 100%;
+      background: url("../images/meditation-mala-beads-440X480px.jpg") no-repeat center center;
+      height: 100%;
     }
-
     .interest-registration-form {
-        right: 0;
-        }
-    
-    #form {
-        background: url("../images/lotus-flower-blossom-480X900px.jpg");
+      right: 0;
     }
-    
-    
+    #form {
+      background: url("../images/lotus-flower-blossom-480X900px.jpg");
+    }
     #form h2 {
-        font-size: 18px;
+      font-size: 18px;
     }
-
     #form label {
-        font-size: 14px;
+      font-size: 14px;
     }
-
     #form p {
-        font-size: 14px;
+      font-size: 14px;
     }
-
     .interest-registration-form {
-        margin: 0 35px;
+      margin: 0 35px;
     }
-
     .text-input {
-        height: 20px;
-        margin-bottom: 15px;
+      height: 20px;
+      margin-bottom: 15px;
     }
-
     #thank-you {
-        padding: 120px 70px 35px;
+      padding: 120px 70px 35px;
     }
-
     #thank-you h2 {
-        font-size: 150%;
+      font-size: 150%;
     }
-
     #thank-you h3 {
-        font-size: 100%;
+      font-size: 100%;
     }
-}
+  }
 
-/* For smallest screens sizes from 320px wide and down */
-
-@media screen and (max-width: 320px) {
-
-    h3, #main-menu { 
-        font-size: 10px;
+  /* For smallest screens sizes from 320px wide and down */
+  @media screen and (max-width: 320px) {
+    h3, #main-menu {
+      font-size: 10px;
     }
-
     #logo {
-        font-size: 100%;
+      font-size: 100%;
     }
-
     #hero-image {
-        background: url("../images/main-image-320X600px.jpg") no-repeat center center;
+      background: url("../images/main-image-320X600px.jpg") no-repeat center center;
     }
-
     #offerings-image {
-        background: url("../images/lotus_bg-320X1500.png") no-repeat center center;
+      background: url("../images/lotus_bg-320X1500.png") no-repeat center center;
     }
-
     #yoga-schedule-image {
-        background: url("../images/yoga-forward-stretch-320X500px.jpg") no-repeat center center;
-        height: 100%;
+      background: url("../images/yoga-forward-stretch-320X500px.jpg") no-repeat center center;
+      height: 100%;
     }
-    
     #meditation-schedule-image {
-        background: url("../images/meditation-mala-beads-320X500px.jpg") no-repeat center center;
-        height: 100%;
+      background: url("../images/meditation-mala-beads-320X500px.jpg") no-repeat center center;
+      height: 100%;
     }
-
     #form {
-        background: url("../images/lotus-flower-blossom-320X900px.jpg");
+      background: url("../images/lotus-flower-blossom-320X900px.jpg");
     }
-
     .interest-registration-form {
-        top: 20px;
-        margin: 0 20px;
+      top: 20px;
+      margin: 0 20px;
     }
-
     #thank-you {
-        padding: 100px 10px 50px;
+      padding: 100px 10px 50px;
     }
-
     #thank-you h2 {
-        font-size: 150%;
+      font-size: 150%;
     }
-
     #thank-you h3 {
-        font-size: 100%;
+      font-size: 100%;
+    }
+  }
+
+  /* media queries for specific device orientations */
+
+  /* iPad Air */
+  @media all and (device-width: 820px) and (device-height: 1180px) and (orientation:portrait) {
+    #thank-you {
+      padding: 330px 140px;
+    }
+  }
+
+  /* iPad Mini */
+  @media all and (device-width: 768px) and (device-height: 1024px) and (orientation:portrait) {
+    #thank-you {
+      padding: 260px 140px 230px;
+    }
+  }
+
+  /* iPhone SE */
+  @media all and (device-width: 375px) and (device-height: 667px) and (orientation:portrait) {
+    #thank-you {
+      padding: 150px 35px 35px;
+    }
+    #thank-you h2 {
+      font-size: 140%;
+    }
+  }
+
+  /* iPhone XR */
+  @media all and (device-width: 414px) and (device-height: 896px) and (orientation:portrait) {
+    #thank-you {
+      padding: 220px 35px 180px;
+    }
+  }
+
+  /* iPhone 12 Pro */
+  @media all and (device-width: 390px) and (device-height: 844px) and (orientation:portrait) {
+    #thank-you {
+      padding: 200px 35px 110px;
+    }
+  }
+
+  /* Pixel 5 */
+  @media all and (device-width: 393px) and (device-height: 851px) and (orientation:portrait) {
+    #thank-you {
+      padding: 200px 35px 120px;
+    }
+  }
+
+  /* Samsung Galaxy S8+ */
+  @media all and (device-width: 360px) and (device-height: 740px) and (orientation:portrait) {
+    #thank-you {
+      padding: 150px 35px 60px;
+    }
+  }
+  
+  /* Samsung S20 Ultra */
+  @media all and (device-width: 412px) and (device-height: 915px) and (orientation:portrait) {
+    #thank-you {
+      padding: 230px 35px 190px;
+    }
+  }
+
+  /* Surface Pro 7 */
+  @media all and (device-width: 912px) and (device-height: 1368px) and (orientation:portrait) {
+    #thank-you {
+      padding: 440px 35px;
+    }
+  }
+
+  /* Surface Duo */
+  @media all and (device-width: 540px) and (device-height: 720px) and (orientation:portrait) {
+    #thank-you {
+      padding: 170px 70px 70px;
+    }
+    #thank-you h2 {
+      font-size: 160%;
+    }
+  }
+
+  /* Galaxy Fold */
+  @media all and (device-width: 280px) and (device-height: 653px) and (orientation:portrait) {
+    #thank-you {
+      padding: 150px 35px 35px;
+    }
+    #thank-you h2 {
+      font-size: 100%;
+    }
+    #thank-you h3 {
+      font-size: 75%;
+    }
+  }
+
+  /* Samsung Galxy A51/71 */
+  @media all and (device-width: 412px) and (device-height: 914px) and (orientation:portrait) {
+    #thank-you {
+      padding: 250px 10px 150px;
+    }
+  }
+
+  /* Nest Hub */
+  @media all and (device-width: 1024px) and (device-height: 600px) and (orientation:landscape) {
+    #thank-you {
+      padding: 90px 0 20px;
+    }
+    #thank-you h2 {
+      font-size: 160%;
+    }
+  }
+  
+  /* Nest Hub Max*/
+  @media all and (device-width: 1280px) and (device-height: 800px) and (orientation:landscape) {
+    #thank-you {
+      padding: 200px 0 70px;
     }
 }
-
-/* media queries for specific device orientations */
-
-    /* iPad Air */
-    @media all and (device-width: 820px) and (device-height: 1180px) and (orientation:portrait) {
-        
-        #thank-you {
-            padding: 330px 140px;
-        }
-    }
-
-    /* iPad Mini */
-    @media all and (device-width: 768px) and (device-height: 1024px) and (orientation:portrait) {
-        
-        #thank-you {
-            padding: 260px 140px 230px;
-        }
-    }
-
-    /* iPhone SE */
-    @media all and (device-width: 375px) and (device-height: 667px) and (orientation:portrait) {
-        
-        #thank-you {
-            padding: 150px 35px 35px;
-        }
-
-        #thank-you h2 {
-            font-size: 140%;
-        }
-    }
-
-    /* iPhone XR */
-    @media all and (device-width: 414px) and (device-height: 896px) and (orientation:portrait) {
-        
-        #thank-you {
-            padding: 220px 35px 180px;
-        }
-    }
-
-    /* iPhone 12 Pro */
-    @media all and (device-width: 390px) and (device-height: 844px) and (orientation:portrait) {
-        
-        #thank-you {
-            padding: 200px 35px 110px;
-        }
-    }
-
-    /* Pixel 5 */
-    @media all and (device-width: 393px) and (device-height: 851px) and (orientation:portrait) {
-        
-        #thank-you {
-            padding: 200px 35px 120px;
-        }
-    }
-
-    /* Samsung Galaxy S8+ */
-    @media all and (device-width: 360px) and (device-height: 740px) and (orientation:portrait) {
-        
-        #thank-you {
-            padding: 150px 35px 60px;
-        }
-    }
-
-    /* Samsung S20 Ultra */
-    @media all and (device-width: 412px) and (device-height: 915px) and (orientation:portrait) {
-        
-        #thank-you {
-            padding: 230px 35px 190px;
-        }
-    }
-
-    /* Surface Pro 7 */
-    @media all and (device-width: 912px) and (device-height: 1368px) and (orientation:portrait) {
-        
-        #thank-you {
-            padding: 440px 35px;
-        }
-    }
-
-    /* Surface Duo */
-    @media all and (device-width: 540px) and (device-height: 720px) and (orientation:portrait) {
-        
-        #thank-you {
-            padding: 170px 70px 70px;
-        }
-
-        #thank-you h2 {
-            font-size: 160%;
-        }
-    }
-
-    /* Galaxy Fold */
-    @media all and (device-width: 280px) and (device-height: 653px) and (orientation:portrait) {
-        
-        #thank-you {
-            padding: 150px 35px 35px;
-        }
-
-        #thank-you h2 {
-            font-size: 100%;
-        }
-
-        #thank-you h3 {
-            font-size: 75%;
-        }
-    }
-
-    /* Samsung Galxy A51/71 */
-    @media all and (device-width: 412px) and (device-height: 914px) and (orientation:portrait) {
-        
-        #thank-you {
-            padding: 250px 10px 150px;
-        }
-    }
-
-    /* Nest Hub */
-    @media all and (device-width: 1024px) and (device-height: 600px) and (orientation:landscape) {
-        
-        #thank-you {
-            padding: 90px 0 20px;
-        }
-
-        #thank-you h2 {
-            font-size: 160%;
-        }
-    }
-
-    /* Nest Hub Max*/
-    @media all and (device-width: 1280px) and (device-height: 800px) and (orientation:landscape) {
-        
-        #thank-you {
-            padding: 200px 0 70px;
-        }
-    }
