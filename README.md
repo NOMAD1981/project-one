@@ -80,8 +80,7 @@ The last update to this file was: **January 28, 2022**
         - Home Page Wireframe - [view wireframe](assets/readme-images/home-page-mockup.jpg)
         - Schedule Page Wireframe - [view wireframe](assets/readme-images/schedule-page-mockup.jpg)
         - Registration Page Wireframe - [view wireframe](assets/readme-images/registration-page-mockup)
-        - Thank You Page - no wireframe was created for this page, as it simply includes the main site header and footer, with a small amount of text included to thank the user for the form submission and a link back to the home page. 
-            - However, it did require very specific styling per device, which can be found at the end of the style.css file, due to the lack of content on the page.
+        - Thank You Page - no wireframe was created for this page as it was added afterwards. The form initially included the code institute form-dump link but my mentor advised me to create a separate 'thank you' page.
 
 # Features
 
@@ -97,7 +96,7 @@ The last update to this file was: **January 28, 2022**
 -   [CSS](https://www.w3schools.com/css/)
 
 ## Frameworks, Libraries & Programs Used
-1.   [CSS Media Queries](https://fonts.google.com/) have been used heavily for visuals at certain breakpoints and on specific devices, in particular with regard to the visual of the 'thank you' page on a range of devices. Inclusion of very basic content in the form of a simple message of thanks required very specific styling per device, in order to avoid excessive scrolling where it is not required and to improve user experience.
+1.   [CSS Media Queries](https://fonts.google.com/) have been used heavily for visuals at relevant breakpoints.
 2.   [Google Fonts](https://fonts.google.com/) has been used to import Merriweather Serif and Merriweather Sans into the style.css file in order that they be used within the html styling over the standard serif and sans serif fonts offered by the browser. A fall back to the default browser font has been included called in the css also, in case there should there be any issue with the import.
 3.   [Font Awesome](https://fontawesome.com/) offers an easy solution for the inclusion of icons in any web based project. It offered a solution for the inclusion of the 'praying hands' icon in this project, which evokes the sentiment of spirituality associated with yoga and mediatation, thereby using a very simplistic representation of what is on offer on the site. It has also been used in the site favicon, to visually bind the overall studio vision and user psychology together.
 4.   [Git](https://git-scm.com/) was used, in conjunction with the [Gitpod](https://www.gitpod.io/) terminal, to manage version control, commit changes and push these changes to GitHub.
@@ -109,8 +108,23 @@ The last update to this file was: **January 28, 2022**
 
 # Testing
 
-## Lighthouse | Mobile Scores
-![Lighthouse | Mobile Scores](assets/readme-images/mobile-lighthouse-result.png)
+## 1. Lighthouse | Mobile Scores
+![Lighthouse | Mobile Scores](assets/readme-images/mobile-lighthouse-result.jpg)
 
-## Lighthouse | Desktop Scores
-![Lighthouse | Desktop Scores](assets/readme-images/desktop-lighthouse-result.png)
+## 2. Lighthouse | Desktop Scores
+![Lighthouse | Desktop Scores](assets/readme-images/desktop-lighthouse-result.jpg)
+
+### 3. W3C Markup Validator: No Errors - [View Results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fnomad1981.github.io%2Fproject-one%2F)
+
+### 4. W3C CSS Validator: No Errors - [View Results](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fnomad1981.github.io%2Fproject-one%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+
+### 5. UX  | User Experience Testing
+-   The imagery offers clarity for the purpose of the site and the business immediately on load of the home page.
+-   The site is easy to navigate, including a clear navigation bar, a flow of relevant information on each page and the site functions responsively.
+-   The site offers navigation links immediately along with anchor links on slight scroll, giving them ample opportunity to find the information they may require.
+-   The user can easily find all relevant information they may need quickly and clearly.
+-   The user is introduced to the people running the studio/classes and their experience.
+-   A map of the studio location and contact details for the studio are supplied to the userr, along with social media links to keep up to date on a daily basis.
+-   The user can submit a form to register their interest in specific classes offered. They can include as many classes as they want and they can also choose to recive information on in-studio, online, or all options. This offers flexibility for the user.
+-   The user is offered an overview of the different yoga and meditation techniques offered.
+
