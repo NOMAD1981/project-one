@@ -51,6 +51,8 @@ The last update to this file was: **January 28, 2022**
 * Imagery
     - The photographic imagery used has been acquired through [Adobe Stock](https://stock.adobe.com/ie/) and is fully licensed under my AdobeCC subscription.
     - The lotus flower used as a background item on the home page was produced using Adobe Illustrator.
+    - Imagery was exported through Photoshop and saved for web, then further optimised using [Compressor](https://compressor.io/).
+    - Imagery has been resized, optimised and formatted for display at different breakpoints using media queries.
     - The video used on the schedule page is free to use and was acquired through the [Pexels website](https://www.pexels.com).
 
 
