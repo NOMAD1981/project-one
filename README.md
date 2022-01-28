@@ -13,9 +13,9 @@ The last update to this file was: **January 28, 2022**
 # Contents
 (to be added once complete)
 
-## UX | User Experience
+# UX | User Experience
 
-### User Requirements Feedback
+## User Requirements Feedback
 * The user should be met with visuals that immediately illustrate the purpose of the site
 * The user should be able to navigate through the site easily on all devices
 * The user should be offered information on the services available, along with cost and class times
@@ -25,7 +25,7 @@ The last update to this file was: **January 28, 2022**
 * The user would like to be submit a form which allows them to specify their class interests
 * The user would like to see clear listings of the techniques covered and a brief overview of each
 
-### Design & Visuals
+## Design & Visuals
 
 * Colour
     - Article reviewed for inspiration: Colour Therapy for Yoga - [View Article](https://powerofnature.wordpress.com/2007/08/09/colour-therapy-for-yoga/)
@@ -55,16 +55,18 @@ The last update to this file was: **January 28, 2022**
     - Imagery has been resized, optimised and formatted for display at different breakpoints using media queries.
     - The video used on the schedule page is free to use and was acquired through the [Pexels website](https://www.pexels.com).
 
-* Wireframes
-    - Home Page Wireframe - [view wireframe](assets/readme-images/home-page-mockup.jpg)
-    - Schedule Page Wireframe - [view wireframe](assets/readme-images/schedule-page-mockup.jpg)
-    - Registration Page Wireframe - [view wireframe](assets/readme-images/registration-page-mockup)
+* Wireframes & Site Struture
+    - The wireframes illustrate the main desktop visual, largely a two column design, with notes to reference the change to a one column layout on smaller screens. Approximate dimensions are also included.
+    - On advice of my project leader, Kasia, the wireframes are hand-drawn, as oppose to the using Photoshop or Adobe XD as I had intended on doing inititally.
 
-    - Thank You Page
+        - Home Page Wireframe - [view wireframe](assets/readme-images/home-page-mockup.jpg)
+        - Schedule Page Wireframe - [view wireframe](assets/readme-images/schedule-page-mockup.jpg)
+        - Registration Page Wireframe - [view wireframe](assets/readme-images/registration-page-mockup)
+        - Thank You Page - no wireframe was created for this page, as it simply includes the main site header and footer, with a small amount of text included to thank the user for the form submission and a link back to the home page. 
+            - However, it did require very specific styling per device, which can be found at the end of the style.css file, due to the lack of content on the page.
 
+## Features
+    - 
 
-### Overall Site Structure
-
-### Wireframes
 
 
