@@ -66,7 +66,7 @@ The last update to this file was: **January 28, 2022**
             - However, it did require very specific styling per device, which can be found at the end of the style.css file, due to the lack of content on the page.
 
 ## Features
-    - 
-
-
-
+-   Fully responsive on all devices
+-   Anchor linking inclusions to schedule and registration sections
+-   Subtle logo animation and hover effects
+-   Registration of interest for multiple class options
