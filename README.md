@@ -7,8 +7,18 @@ Buddhi Yoga Studio (name) | Take your place at the seat of wisdom (tagline)
 Buddhi Yoga Studio is a website for adults looking to practice yoga and meditation in the Clare area. This site offers the user information on a range of yoga and meditation techniques covered, an introduction to the teachers, single class and block booking pricing, the studio schedule, and a contact form to contact the studio directly with any queries they may have.
 Buddhi Yoga Studio offers both in-studio and online classes via zoom.
 
+Buddhi Yoga studio is an imagined business for use in this project only.
 
 The last update to this file was: **January 28, 2022**
+
+## Am I Responsive | Site Visual
+![Buddhi Yoga Studio AIS Visual](assets/readme-images/ais-visual.jpg)
+
+## Lighthouse | Mobile Scores
+![Lighthouse | Mobile Scores](assets/readme-images/mobile-lighthouse-result.png)
+
+## Lighthouse | Desktop Scores
+![Lighthouse | Desktop Scores](assets/readme-images/desktop-lighthouse-result.png)
 
 # Contents
 (to be added once complete)
