@@ -14,12 +14,6 @@ The last update to this file was: **January 28, 2022**
 ## Am I Responsive | Site Visual
 ![Buddhi Yoga Studio AIS Visual](assets/readme-images/ais-visual.jpg)
 
-## Lighthouse | Mobile Scores
-![Lighthouse | Mobile Scores](assets/readme-images/mobile-lighthouse-result.png)
-
-## Lighthouse | Desktop Scores
-![Lighthouse | Desktop Scores](assets/readme-images/desktop-lighthouse-result.png)
-
 # Contents
 (to be added once complete)
 
@@ -114,3 +108,9 @@ The last update to this file was: **January 28, 2022**
 10.  [Pen & Paper](https://the-refinery.io/blog/tips-and-benefits-of-hand-drawn-wireframes) was used to create the wireframes for the project. This offered a quick visual representation of the basic site structure before getting stuck into coding.
 
 # Testing
+
+## Lighthouse | Mobile Scores
+![Lighthouse | Mobile Scores](assets/readme-images/mobile-lighthouse-result.png)
+
+## Lighthouse | Desktop Scores
+![Lighthouse | Desktop Scores](assets/readme-images/desktop-lighthouse-result.png)
