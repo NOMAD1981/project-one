@@ -48,6 +48,9 @@ The last update to this file was: **January 28, 2022**
         - Text Colours:
             - Charcoal Black [#2a2a2a](https://www.color-hex.com/color/2a2a2a)
             - Charcoal Grey [#333333](https://www.color-hex.com/color/333333)
+        - Colour Scheme Visual:
+            
+            ![Buddhi Yoga Studio Colour Scheme](assets/readme-images/bys-colour-palette.jpg)
 
 * Logo & Typography
     - Fonts chosen based on their simplicity, legibility and complementary family pairing, with a contrast between serif and sans-serif display for interest:
@@ -66,7 +69,7 @@ The last update to this file was: **January 28, 2022**
     - The video used on the schedule page is free to use and was acquired through the [Pexels website](https://www.pexels.com).
 
 * Wireframes & Site Struture
-    - The wireframes illustrate the main desktop visual, largely a two column design, with notes to reference the change to a one column layout on smaller screens. Approximate dimensions are also included.
+    - The wireframes illustrate the main desktop visual, largely a two column design, with notes to reference the change to a one column layout on smaller screens. Approximate dimensions and structure are included, with some slight changes made during the development process.
     - On advice of my project leader, Kasia, the wireframes are hand-drawn, as oppose to the using Photoshop or Adobe XD as I had intended on doing inititally.
 
         - Home Page Wireframe - [view wireframe](assets/readme-images/home-page-mockup.jpg)
@@ -75,8 +78,27 @@ The last update to this file was: **January 28, 2022**
         - Thank You Page - no wireframe was created for this page, as it simply includes the main site header and footer, with a small amount of text included to thank the user for the form submission and a link back to the home page. 
             - However, it did require very specific styling per device, which can be found at the end of the style.css file, due to the lack of content on the page.
 
-## Features
+# Features
 -   Fully responsive on all devices
 -   Anchor linking inclusions to schedule and registration sections
 -   Subtle logo animation and hover effects
--   Registration of interest for multiple class options
+-   Registration of interest for multiple class options, as required
+
+# Technologies Used
+
+## Languages
+-   [HTML](https://www.w3schools.com/html/)
+-   [CSS](https://www.w3schools.com/css/)
+
+## Frameworks, Libraries & Programs Used
+-   [Google Fonts]()
+-   [Font Awesome]()
+-   [Git]()
+-   [Gitpod]()
+-   [GitHub]()
+-   [Photoshop]()
+-   [Illustrator]()
+-   [Compressor]()
+-   [Pen & Paper]()
+
+
