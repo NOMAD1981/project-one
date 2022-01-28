@@ -91,14 +91,14 @@ The last update to this file was: **January 28, 2022**
 -   [CSS](https://www.w3schools.com/css/)
 
 ## Frameworks, Libraries & Programs Used
--   [Google Fonts]()
--   [Font Awesome]()
--   [Git]()
--   [Gitpod]()
--   [GitHub]()
--   [Photoshop]()
--   [Illustrator]()
--   [Compressor]()
--   [Pen & Paper]()
+1.   [CSS Media Queries](https://fonts.google.com/){:target="_blank" rel="noopener"} have been used heavily for visuals at certain breakpoints and on specific devices, in particular with regard to the visual of the 'thank you' page on a range of devices. Inclusion of very basic content in the form of a simple message of thanks required very specific styling per device, in order to avoid excessive scrolling where it is not required and to improve user experience.
+2.   [Google Fonts](https://fonts.google.com/) has been used to import Merriweather Serif and Merriweather Sans into the style.css file in order that they be used within the html styling over the standard serif and sans serif fonts offered by the browser. A fall back to the default browser font has been included called in the css also, in case there should there be any issue with the import.
+3.   [Font Awesome](https://fontawesome.com/) offers an easy solution for the inclusion of icons in any web based project. It offered a solution for the inclusion of the 'praying hands' icon in this project, which evokes the sentiment of spirituality associated with yoga and mediatation, thereby using a very simplistic representation of what is on offer on the site. It has also been used in the site favicon, to visually bind the overall studio vision and user psychology together.
+4.   [Git](https://git-scm.com/) was used, in conjunction with the [Gitpod](https://www.gitpod.io/) terminal, to manage version control, commit changes and push these changes to GitHub.
+6.   [GitHub](https://github.com/) offered a straightforward hostting solution for the website files.
+7.   [Photoshop CC](https://www.adobe.com/ie/products/photoshop.html) was used for the sizing and exporting of images for web, in order to call different sizes and orientations for specific breakpoints. It was also used to further work on the vector image created in Illustrator CC, as mentioned below.
+8.   [Illustrator CC](https://www.adobe.com/ie/products/illustrator.html) was used to create the lotus graphic background used on the home page, after which it was further processed through Photoshop.
+9.   [Compressor](https://compressor.io/) was used to further optimise all imagery.
+10.  [Pen & Paper](https://the-refinery.io/blog/tips-and-benefits-of-hand-drawn-wireframes) was used to create the wireframes for the project. This offered a quick visual representation of the basic site structure before getting stuck into coding.
 
 
