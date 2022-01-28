@@ -244,6 +244,9 @@ footer {
 #bottom-bar a {
   color: #7c26cb;
 }
+#bottom-bar a:hover {
+    color: #e28a2b;
+  }
 
 /* Schedule styles */
 #yoga-class-schedule, #meditation-class-schedule {
@@ -263,7 +266,7 @@ footer {
 }
 .yoga-schedule-image-container, .meditation-schedule-image-container {
   width: 47%;
-  height: 475px;
+  height: 480px;
 }
 #yoga-schedule-image {
   background: url("../images/yoga-forward-stretch.jpg") no-repeat center center;
@@ -779,7 +782,7 @@ footer {
       font-size: 160%;
     }
   }
-  
+
   /* Nest Hub Max*/
   @media all and (device-width: 1280px) and (device-height: 800px) and (orientation:landscape) {
     #thank-you {
