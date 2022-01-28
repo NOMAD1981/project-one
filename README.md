@@ -35,6 +35,23 @@ The last update to this file was: **January 28, 2022**
             - “VIOLET is cleansing, strengthening, and awakening. It has the power to suppress appetite restoring the peaceful environment. It affects the skeletal system of the body and is a good color for improving immunity, cancerous conditions, and arthritis. It also purifies the system and is an excellent color for headaches and migraines.”
         - Secondary Colour: Orange - [#e28a2b](https://www.color-hex.com/color/e28a2b)
             - “ORANGE is the color of joy and wisdom, energy and internal connection. It stimulates appetite and it is a good color for illnesses of the colon and digestion.”
+        - Text Colours:
+            - Charcoal Black [#2a2a2a](https://www.color-hex.com/color/2a2a2a)
+            - Charcoal Grey [#333333](https://www.color-hex.com/color/333333)
+
+* Logo & Typography
+    - Fonts chosen based on their simplicity, legibility and complementary family pairing, with a contrast between serif and sans-serif display for interest:
+        - [Merriweather Serif:](https://fonts.google.com/specimen/Merriweather) Main Headings
+        - [Merriweather Sans:](https://fonts.google.com/specimen/Merriweather+Sans) Body & Paragraph
+    - The styling includes a fall back to a standard serif or sans-serif font should either of these be unavailable for any reason or there is an issue with font import.
+    - Letter spacing is included in the logo and some site headings for visual interest.
+    - The logo uses [Merriweather Serif:](https://fonts.google.com/specimen/Merriweather) in Blue Violet [#7c26cb](https://www.color-hex.com/color/7c26cb) and includes a slight animation on page load in order to draw attention to the business name.
+    - The 'praying hands' font awesome icon is used throughout the site, in the favicon, tagline and thank you page (after form submission) for continuity and support for the common phrase 'Namaste', a common term used in yoga and meditation circles. Coming from Hindi, as derived from the ancient Sanskrit, this term can be translated as “I bow to the divine in you". More information on it's origins can be [found here](https://en.wikipedia.org/wiki/Namaste). The 'praying hands' icon itself symbolises the the action that is taken upon greeting another with the phrase 'Namaste', which is often also often followed with a bow of one's head in respect.
+
+* Imagery
+    - The photographic imagery used has been acquired through [Adobe Stock](https://stock.adobe.com/ie/) and is fully licensed under my AdobeCC subscription.
+    - The lotus flower used as a background item on the home page was produced using Adobe Illustrator.
+    - The video used on the schedule page is free to use and was acquired through the [Pexels website](https://www.pexels.com).
 
 
 ### Overall Site Structure
