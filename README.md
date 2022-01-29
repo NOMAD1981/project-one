@@ -158,3 +158,59 @@ The last update to this file was: **January 28, 2022**
     ![GitHub Page Visual](assets/readme-images/github-page.jpg)
 
 The link to my GitHub repository for this project can be [found here](https://github.com/NOMAD1981/project-one)
+
+# Creation of Clone
+
+1.  Open the repository for cloning
+2.  Click on the 'Code' dropdown in the top right and select to copy the link under https, as illustrated below:
+
+    ![GitHub Clone Creation](assets/readme-images/github-clone.jpg)
+3. Open Git Bash
+4. Change the current working directory to the location where you want the cloned directory to be made.
+5. Type git clone, and then paste the URL copied from the 'Code' tab.
+6. Press enter and the local clone is created.
+
+# Issue I experienced with Cloning
+1.  I followed steps 1 through 3 above
+2.  I then entered 'git clone https://github.com/NOMAD1981/project-one.git git_clone' in order to create a clone within a folder in my current directory. The git_clone folder was created, as illustrated below.
+
+    ![GitHub Clone Issue](assets/readme-images/git-clone-ide.jpg)
+3. On running 'git add .' I received the following warning, but proceeded to commit.
+
+    ![Clone Warning](assets/readme-images/git-clone-warning.jpg)
+
+4. I noted issues whereby the GitHub page would not refresh and also had issues with the browser crashing.
+5. I restarted and deleted the 'git_clone' folder then pushed the changes to GitHub.
+
+# Credits
+
+## Code
+- The following articles were referenced as an overview of video functionality and breakpoints, respectively:
+    - [Stack Overflow - centering of video](https://stackoverflow.com/questions/17508729/how-do-you-center-a-video-using-css)
+    - [Stack Overflow - disabling autoplay](https://stackoverflow.com/questions/19664622/disable-html5-video-autoplay)
+    - [Code Greeper - video placeholder](https://www.codegrepper.com/code-examples/html/html+video+placeholder)
+    - [Free Code Camp - css breakpoints](https://www.freecodecamp.org/news/the-100-correct-way-to-do-css-breakpoints-88d6a5ba1862)
+- Some css properties were checked and used from this link, which is also referenced in the css file - as below:
+    - /* last 4 properties checked here https://www.w3schools.com/howto/howto_js_scroll_to_top.asp */
+        - position: fixed; /* Fixed/sticky position */
+        - bottom: 20px; /* Place the button at the bottom of the page */
+        - right: 30px; /* Place the button 30px from the right */
+        - z-index: 99; /* Make sure it does not overlap */
+
+## Copyrighting
+-   The following articles were referenced during creation of text content and to check terminology etc:
+    - [Hatha Yoga Info](https://www.yogapedia.com/definition/4977/hatha-yoga)
+    - [Iyengar Yoga Info](https://www.yogapedia.com/definition/5017/iyengar-yoga)
+    - [Kundalini Yoga Info](https://www.yogapedia.com/definition/5024/kundalini-yoga)
+    - [Guided Meditation Info](https://www.yogapedia.com/definition/11523/guided-meditation)
+    - [Chakra Meditation Info](https://www.yogapedia.com/definition/11095/chakra-meditation)
+    - [Qigong Meditation Info](https://www.yogapedia.com/definition/11045/qigong)
+
+## Media
+-   Imagery used has been acquired through [Adobe Stock](https://stock.adobe.com/ie/) and is fully licensed under my AdobeCC subscription.
+-   The lotus flower background was produced using Adobe Illustrator.
+-   The video is free to use and was acquired through the [Pexels website](https://www.pexels.com).
+
+## Acknowledgements
+-   I would like to thank our Cohort Facilitator on the course, Kasia Bogucka, for being an eternal ray of sunshine throughout this first project, and for offering support/advice wherever needed.
+-   I would also like to thank my mentor Precious Ijege for useful feedback throughout.
