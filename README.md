@@ -81,39 +81,39 @@ The last update to this file was: **January 29, 2022**
 
 ### Logo & Typography
 
-    - Fonts chosen based on their simplicity, legibility and complementary family pairing, with a contrast between serif and sans-serif display for interest:
-        - [Merriweather Serif:](https://fonts.google.com/specimen/Merriweather) Main Headings
-        - [Merriweather Sans:](https://fonts.google.com/specimen/Merriweather+Sans) Body & Paragraph
+-   Fonts chosen based on their simplicity, legibility and complementary family pairing, with a contrast between serif and sans-serif display for interest:
+    - [Merriweather Serif:](https://fonts.google.com/specimen/Merriweather) Main Headings
+    - [Merriweather Sans:](https://fonts.google.com/specimen/Merriweather+Sans) Body & Paragraph
 
-    - The styling includes a fall back to a standard serif or sans-serif font should either of these be unavailable for any reason or there is an issue with font import.
+-   The styling includes a fall back to a standard serif or sans-serif font should either of these be unavailable for any reason or there is an issue with font import.
 
-    - Letter spacing is included in the logo and some site headings for visual interest.
+-   Letter spacing is included in the logo and some site headings for visual interest.
 
-    - The logo uses [Merriweather Serif:](https://fonts.google.com/specimen/Merriweather) in Blue Violet [#7c26cb](https://www.color-hex.com/color/7c26cb) and includes a slight animation on page load in order to draw attention to the business name.
+-   The logo uses [Merriweather Serif:](https://fonts.google.com/specimen/Merriweather) in Blue Violet [#7c26cb](https://www.color-hex.com/color/7c26cb) and includes a slight animation on page load in order to draw attention to the business name.
 
-    - The 'praying hands' font awesome icon is used throughout the site, in the favicon, tagline and thank you page (after form submission) for continuity and support for the common phrase 'Namaste', a common term used in yoga and meditation circles. Coming from Hindi, as derived from the ancient Sanskrit, this term can be translated as “I bow to the divine in you". More information on it's origins can be [found here](https://en.wikipedia.org/wiki/Namaste). The 'praying hands' icon itself symbolises the the action that is taken upon greeting another with the phrase 'Namaste', which is often also followed with a bow of one's head in respect.
+-   The 'praying hands' font awesome icon is used throughout the site, in the favicon, tagline and thank you page (after form submission) for continuity and support for the common phrase 'Namaste', a common term used in yoga and meditation circles. Coming from Hindi, as derived from the ancient Sanskrit, this term can be translated as “I bow to the divine in you". More information on it's origins can be [found here](https://en.wikipedia.org/wiki/Namaste). The 'praying hands' icon itself symbolises the the action that is taken upon greeting another with the phrase 'Namaste', which is often also followed with a bow of one's head in respect.
 
 [Back to top](<#contents>)
 
 ### Imagery
 
-    - The photographic imagery used has been acquired through [Adobe Stock](https://stock.adobe.com/ie/) and is fully licensed under my AdobeCC subscription.
-    - The lotus flower used as a background item on the home page was produced using Adobe Illustrator.
-    - Imagery was exported through Photoshop and saved for web, then further optimised using [Compressor](https://compressor.io/).
-    - Imagery has been resized, optimised and formatted for display at different breakpoints using media queries.
-    - The video used on the schedule page is free to use and was acquired through the [Pexels website](https://www.pexels.com).
+-   The photographic imagery used has been acquired through [Adobe Stock](https://stock.adobe.com/ie/) and is fully licensed under my AdobeCC subscription.
+-   The lotus flower used as a background item on the home page was produced using Adobe Illustrator.
+-   Imagery was exported through Photoshop and saved for web, then further optimised using [Compressor](https://compressor.io/).
+-   Imagery has been resized, optimised and formatted for display at different breakpoints using media queries.
+-   The video used on the schedule page is free to use and was acquired through the [Pexels website](https://www.pexels.com).
 
 [Back to top](<#contents>)
 
 ### Wireframes & Site Structure
 
-    - The wireframes illustrate the main desktop visual, largely a two column design, with notes to reference the change to a one column layout on smaller screens. Approximate dimensions and structure are included, with some slight changes made during the development process.
-    - On advice of my project leader, Kasia, the wireframes are hand-drawn, as oppose to the using Photoshop or Adobe XD as I had intended on doing inititally.
+-   The wireframes illustrate the main desktop visual, largely a two column design, with notes to reference the change to a one column layout on smaller screens. Approximate dimensions and structure are included, with some slight changes made during the development process.
+-   On advice of my project leader, Kasia, the wireframes are hand-drawn, as oppose to the using Photoshop or Adobe XD as I had intended on doing inititally.
 
-        - Home Page Wireframe - [view wireframe](assets/readme-images/home-page-mockup.jpg)
-        - Schedule Page Wireframe - [view wireframe](assets/readme-images/schedule-page-mockup.jpg)
-        - Registration Page Wireframe - [view wireframe](assets/readme-images/registration-page-mockup)
-        - Thank You Page - no wireframe was created for this page as it was added afterwards. The form initially included the code institute form-dump link but my mentor advised me to create a separate 'thank you' page.
+    - Home Page Wireframe - [view wireframe](assets/readme-images/home-page-mockup.jpg)
+    - Schedule Page Wireframe - [view wireframe](assets/readme-images/schedule-page-mockup.jpg)
+    - Registration Page Wireframe - [view wireframe](assets/readme-images/registration-page-mockup)
+    - Thank You Page - no wireframe was created for this page as it was added afterwards. The form initially included the code institute form-dump link but my mentor advised me to create a separate 'thank you' page.
 
 [Back to top](<#contents>)
 
