@@ -347,6 +347,7 @@ footer {
 
 /* Thank you section styles */
 #thank-you {
+  height: 70vh;
   padding: 400px 0;
 }
 #thank-you div {
