@@ -7,7 +7,7 @@
 Buddhi Yoga Studio is a website for adults looking to practice yoga and meditation in the Clare area. This site offers the user information on a range of yoga and meditation techniques covered, an introduction to the teachers, single class and block booking pricing, the studio schedule, and a contact form to contact the studio directly with any queries they may have.
 Buddhi Yoga Studio offers both in-studio and online classes via zoom.
 
-Buddhi Yoga studio is an imagined business for use in this project only.
+*Buddhi Yoga studio is an imagined business. The people mentioned here do not exist, and the background story has been created for use in this project only.*
 
 The last update to this file was: **January 28, 2022**
 
@@ -141,4 +141,20 @@ The last update to this file was: **January 28, 2022**
 -   The form submission has been checked and it redirects to the 'thank you' page as it should.
 -   All website links and anchors have been checked and are functioning correctly.
 
-## 8. 
+## 8. Peer Code Review
+-   The site was [submitted for peer code review](https://code-institute-room.slack.com/archives/CGWQJQKC5/p1643309786571439) but I have had no response, as yet.
+
+## 9. Known Bugs
+-   I am unhappy with the display of the [thank you](https://nomad1981.github.io/project-one/thank-you.html) page, on iPad Air & iPad Mini in particular where there is far too much white space below the main page textt and the user should not be required to scroll to see the footer area. There is too much I had employed per device styling for visual of this page on many different devices, but when tested for validation it was noted that these media queries have been deprecated, which I was not aware of. The deprecated code used can be [viewed here](assets/css/deprecated.css). It was therefore removed. The nature of the page is that it includes very little content, with just a message to the user. As I spent much time on this item, I have had to park it but I will be researching this issue moving forward for my own understanding of a fix.
+
+# Deployment to GitHub Pages
+1.  Login to [GitHub](https://github.com/) & select the repository for deployment.
+2.  Select 'Settings' on the top right of the screen.
+3.  Scroll down to the 'GitHub Pages' section and you will see the message 'Pages settings now has its own dedicated tab! Check it out here!'. Click the link.
+4.  Under 'Source' select the drop down and choose main (main/master branch), leave /root as is and select 'Save'
+5.  You will note the link is created above stating 'your site is ready to be published at .....'
+6.  Allow some time to deploy and refresh the page. You will see the following message, and your page is now deployed/hosted at GitHub. Any time you push to GitHub from now on, this page will be updated.
+
+    ![GitHub Page Visual](assets/readme-images/github-page.jpg)
+
+The link to my GitHub repository for this project can be [found here](https://github.com/NOMAD1981/project-one)
