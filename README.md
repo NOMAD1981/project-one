@@ -109,10 +109,10 @@ The last update to this file was: **January 28, 2022**
 # Testing
 
 ## 1. Lighthouse | Mobile Scores
-![Lighthouse | Mobile Scores](assets/readme-images/mobile-lighthouse-result.jpg)
+![Lighthouse | Mobile Scores](assets/readme-images/mobile-lighthouse-results.jpg)
 
 ## 2. Lighthouse | Desktop Scores
-![Lighthouse | Desktop Scores](assets/readme-images/desktop-lighthouse-result.jpg)
+![Lighthouse | Desktop Scores](assets/readme-images/desktop-lighthouse-results.jpg)
 
 ### 3. W3C Markup Validator: No Errors - [View Results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fnomad1981.github.io%2Fproject-one%2F)
 
