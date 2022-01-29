@@ -110,21 +110,35 @@ The last update to this file was: **January 28, 2022**
 
 ## 1. Lighthouse | Mobile Scores
 ![Lighthouse | Mobile Scores](assets/readme-images/mobile-lighthouse-results.jpg)
+-   The site was tested regularly for mobile scores on lighthouse throughout the project.
 
 ## 2. Lighthouse | Desktop Scores
 ![Lighthouse | Desktop Scores](assets/readme-images/desktop-lighthouse-results.jpg)
+-   The site was tested regularly for desktop scores on lighthouse throughout the project.
 
-### 3. W3C Markup Validator: No Errors - [View Results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fnomad1981.github.io%2Fproject-one%2F)
+## 3. Lighthouse | Overall Testing Overview
+-   I found lighthouse a very helpful tool to hone in on any performance related issues early on in the project. Based on initial results where performance was lagging, the advice was to create [WebP](https://en.wikipedia.org/wiki/WebP) images. However, I choose to call re-sized and optimised imagery at different breakpoints which alleviated this issue entirely and is commonly seen as best practice. Imagery was further optimised in Photoshop and run through Compressor, as mentioned above, which also contributed to alleviating the performance issues.
 
-### 4. W3C CSS Validator: No Errors - [View Results](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fnomad1981.github.io%2Fproject-one%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+## 4. W3C Markup Validator: No Errors
+-   [View Results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fnomad1981.github.io%2Fproject-one%2F)
 
-### 5. UX  | User Experience Testing
+## 5. W3C CSS Validator: No Errors
+-   [View Results](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fnomad1981.github.io%2Fproject-one%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+
+## 6. UX  | User Experience Testing
 -   The imagery offers clarity for the purpose of the site and the business immediately on load of the home page.
 -   The site is easy to navigate, including a clear navigation bar, a flow of relevant information on each page and the site functions responsively.
 -   The site offers navigation links immediately along with anchor links on slight scroll, giving them ample opportunity to find the information they may require.
 -   The user can easily find all relevant information they may need quickly and clearly.
 -   The user is introduced to the people running the studio/classes and their experience.
--   A map of the studio location and contact details for the studio are supplied to the userr, along with social media links to keep up to date on a daily basis.
+-   A map of the studio location and contact details for the studio are supplied to the user, along with social media links to keep up to date on a daily basis. The user can click to call the phone number directly or can use the email link to send an email.
 -   The user can submit a form to register their interest in specific classes offered. They can include as many classes as they want and they can also choose to recive information on in-studio, online, or all options. This offers flexibility for the user.
 -   The user is offered an overview of the different yoga and meditation techniques covered.
 
+## 7. General Testing
+-   Tested cross browser on Firefox, Chrome, Edge & Safari. It functions well on all browsers.
+-   Heavily tested on a range of devices and breakpoints, where is performs smoothly. 
+-   The form submission has been checked and it redirects to the 'thank you' page as it should.
+-   All website links and anchors have been checked and are functioning correctly.
+
+## 8. 
