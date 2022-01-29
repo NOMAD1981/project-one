@@ -60,22 +60,22 @@ The last update to this file was: **January 29, 2022**
 
 ### Colour
 
-    - Article reviewed for inspiration: Colour Therapy for Yoga - [View Article](https://powerofnature.wordpress.com/2007/08/09/colour-therapy-for-yoga/)
+-   Article reviewed for inspiration: Colour Therapy for Yoga - [View Article](https://powerofnature.wordpress.com/2007/08/09/colour-therapy-for-yoga/)
 
-        - Main Colour: Blue Violet - [#7c26cb](https://www.color-hex.com/color/7c26cb)
-            - BLUE is calming and cooling to our system and hence, a good color to counteract hypertension. Spiritually it is the color of health and connects us to holistic thought.”
-            - “VIOLET is cleansing, strengthening, and awakening. It has the power to suppress appetite restoring the peaceful environment. It affects the skeletal system of the body and is a good color for improving immunity, cancerous conditions, and arthritis. It also purifies the system and is an excellent color for headaches and migraines.”
+    -    Main Colour: Blue Violet - [#7c26cb](https://www.color-hex.com/color/7c26cb)
+        - BLUE is calming and cooling to our system and hence, a good color to counteract hypertension. Spiritually it is the color of health and connects us to holistic thought.”
+        - “VIOLET is cleansing, strengthening, and awakening. It has the power to suppress appetite restoring the peaceful environment. It affects the skeletal system of the body and is a good color for improving immunity, cancerous conditions, and arthritis. It also purifies the system and is an excellent color for headaches and migraines.”
 
-        - Secondary Colour: Orange - [#e28a2b](https://www.color-hex.com/color/e28a2b)
-            - “ORANGE is the color of joy and wisdom, energy and internal connection. It stimulates appetite and it is a good color for illnesses of the colon and digestion.”
+    -   Secondary Colour: Orange - [#e28a2b](https://www.color-hex.com/color/e28a2b)
+        - “ORANGE is the color of joy and wisdom, energy and internal connection. It stimulates appetite and it is a good color for illnesses of the colon and digestion.”
 
-        - Text Colours:
-            - Charcoal Black [#2a2a2a](https://www.color-hex.com/color/2a2a2a)
-            - Charcoal Grey [#333333](https://www.color-hex.com/color/333333)
+    -   Text Colours:
+        - Charcoal Black [#2a2a2a](https://www.color-hex.com/color/2a2a2a)
+        - Charcoal Grey [#333333](https://www.color-hex.com/color/333333)
 
-        - Colour Scheme Visual:
+    -   Colour Scheme Visual:
             
-            ![Buddhi Yoga Studio Colour Scheme](assets/readme-images/bys-colour-palette.jpg)
+        ![Buddhi Yoga Studio Colour Scheme](assets/readme-images/bys-colour-palette.jpg)
 
 [Back to top](<#contents>)
 
