@@ -126,5 +126,5 @@ The last update to this file was: **January 28, 2022**
 -   The user is introduced to the people running the studio/classes and their experience.
 -   A map of the studio location and contact details for the studio are supplied to the userr, along with social media links to keep up to date on a daily basis.
 -   The user can submit a form to register their interest in specific classes offered. They can include as many classes as they want and they can also choose to recive information on in-studio, online, or all options. This offers flexibility for the user.
--   The user is offered an overview of the different yoga and meditation techniques offered.
+-   The user is offered an overview of the different yoga and meditation techniques covered.
 
