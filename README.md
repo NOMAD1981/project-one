@@ -112,7 +112,7 @@ The last update to this file was: **January 29, 2022**
 ### Wireframes & Site Structure
 
 -   The wireframes illustrate the main desktop visual, largely a two column design, with notes to reference the change to a one column layout on smaller screens. Approximate dimensions and structure are included, with some slight changes made during the development process.
--   On advice of my project leader, Kasia, the wireframes are hand-drawn, as oppose to the using Photoshop or Adobe XD as I had intended on doing inititally.
+-   On advice of my project leader, Kasia, the wireframes are hand-drawn, as oppose to the using Photoshop or Adobe XD as I had intended on doing initially.
 
     - Home Page Wireframe - [view wireframe](assets/readme-images/home-page-mockup.jpg)
     - Schedule Page Wireframe - [view wireframe](assets/readme-images/schedule-page-mockup.jpg)
@@ -143,7 +143,7 @@ The last update to this file was: **January 29, 2022**
 2.   [Google Fonts](https://fonts.google.com/) has been used to import Merriweather Serif and Merriweather Sans into the style.css file in order that they be used within the html styling over the standard serif and sans serif fonts offered by the browser. A fall back to the default browser font has been included called in the css also, in case there should there be any issue with the import.
 3.   [Font Awesome](https://fontawesome.com/) offers an easy solution for the inclusion of icons in any web based project. It offered a solution for the inclusion of the 'praying hands' icon in this project, which evokes the sentiment of spirituality associated with yoga and mediatation, thereby using a very simplistic representation of what is on offer on the site. It has also been used in the site favicon, to visually bind the overall studio vision and user psychology together.
 4.   [Git](https://git-scm.com/) was used, in conjunction with the [Gitpod](https://www.gitpod.io/) terminal, to manage version control, commit changes and push these changes to GitHub.
-6.   [GitHub](https://github.com/) offered a straightforward hostting solution for the website files.
+6.   [GitHub](https://github.com/) offered a straightforward hosting solution for the website files.
 7.   [Photoshop CC](https://www.adobe.com/ie/products/photoshop.html) was used for the sizing and exporting of images for web, in order to call different sizes and orientations for specific breakpoints. It was also used to further work on the vector image created in Illustrator CC, as mentioned below.
 8.   [Illustrator CC](https://www.adobe.com/ie/products/illustrator.html) was used to create the lotus graphic background used on the home page, after which it was further processed through Photoshop.
 9.   [Compressor](https://compressor.io/) was used to further optimise all imagery.
@@ -166,7 +166,7 @@ The last update to this file was: **January 29, 2022**
 [Back to top](<#contents>)
 
 ## 3. Lighthouse | Overall Testing Overview
--   I found lighthouse a very helpful tool to hone in on any performance related issues early on in the project. Based on initial results where performance was lagging, the advice was to create [WebP](https://en.wikipedia.org/wiki/WebP) images. However, I choose to call re-sized and optimised imagery at different breakpoints which alleviated this issue entirely and is commonly seen as best practice. Imagery was further optimised in Photoshop and run through Compressor, as mentioned above, which also contributed to alleviating the performance issues.
+-   I found lighthouse a very helpful tool to hone in on any performance related issues early on in the project. Based on initial results where performance was lagging, the advice was to create [WebP](https://en.wikipedia.org/wiki/WebP) images. However, I chose to call re-sized and optimised imagery at different breakpoints which alleviated this issue entirely and is commonly seen as best practice. Imagery was further optimised in Photoshop and run through Compressor, as mentioned above, which also contributed to alleviating the performance issues.
 
 [Back to top](<#contents>)
 
