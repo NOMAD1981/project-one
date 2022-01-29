@@ -17,7 +17,30 @@ The last update to this file was: **January 29, 2022**
 # Contents
 
 * [**UX | User Experience**](<#ux--user-experience>)
+    * [**User Requirements Feedback**](<#user-requirements-feedback>)
+    * [**Design & Visuals**](<#design--visuals>)
 * [**Features**](<#features>)
+* [**Technologies Used**](<#technologies-used>)
+    * [**Languages**](<#languages>)
+    * [**Frameworks, Libraries & Programs Used**](<#frameworks-libraries--programs-used>)
+* [**Testing**](<#testing>)
+    * [**Lighthouse | Mobile Scores**](<#1-lighthouse--mobile-scores>)
+    * [**Lighthouse | Desktop Scores**](<#2-lighthouse--desktop-scores>)
+    * [**Lighthouse | Overall Testing Overview**](<#3-lighthouse--overall-testing-overview>)
+    * [**W3C Markup Validator: No Errors**](<#4-w3c-markup-validator-no-errors>)
+    * [**W3C CSS Validator: No Errors**](<#5-w3c-css-validator-no-errors>)
+    * [**UX | User Experience Testing**](<#6-ux---user-experience-testing>)
+    * [**General Testing**](<#7-general-testing>)
+    * [**Peer Code Review**](<#8-peer-code-review>)
+    * [**Known Bugs**](<#9-known-bugs>)
+* [**Deployment to GitHub Pages**](<#deployment-to-github-pages>)
+* [**Creation of Clone**](<#creation-of-clone>)
+* [**Issue Experienced with Cloning**](<#issue-experienced-with-cloning>)
+* [**Credits**](<#credits>)
+    * [**Code**](<#code>)
+    * [**Text Content**](<#text-content>)
+    * [**Media**](<#media>)
+    * [**Acknowledgements**](<#acknowledgements>)
 
 # UX | User Experience
 
@@ -31,9 +54,11 @@ The last update to this file was: **January 29, 2022**
 * The user would like to be submit a form which allows them to specify their class interests
 * The user would like to see clear listings of the techniques covered and a brief overview of each
 
+[Back to top](<#contents>)
+
 ## Design & Visuals
 
-* Colour
+### Colour
 
     - Article reviewed for inspiration: Colour Therapy for Yoga - [View Article](https://powerofnature.wordpress.com/2007/08/09/colour-therapy-for-yoga/)
 
@@ -52,7 +77,9 @@ The last update to this file was: **January 29, 2022**
             
             ![Buddhi Yoga Studio Colour Scheme](assets/readme-images/bys-colour-palette.jpg)
 
-* Logo & Typography
+[Back to top](<#contents>)
+
+### Logo & Typography
 
     - Fonts chosen based on their simplicity, legibility and complementary family pairing, with a contrast between serif and sans-serif display for interest:
         - [Merriweather Serif:](https://fonts.google.com/specimen/Merriweather) Main Headings
@@ -66,7 +93,9 @@ The last update to this file was: **January 29, 2022**
 
     - The 'praying hands' font awesome icon is used throughout the site, in the favicon, tagline and thank you page (after form submission) for continuity and support for the common phrase 'Namaste', a common term used in yoga and meditation circles. Coming from Hindi, as derived from the ancient Sanskrit, this term can be translated as “I bow to the divine in you". More information on it's origins can be [found here](https://en.wikipedia.org/wiki/Namaste). The 'praying hands' icon itself symbolises the the action that is taken upon greeting another with the phrase 'Namaste', which is often also followed with a bow of one's head in respect.
 
-* Imagery
+[Back to top](<#contents>)
+
+### Imagery
 
     - The photographic imagery used has been acquired through [Adobe Stock](https://stock.adobe.com/ie/) and is fully licensed under my AdobeCC subscription.
     - The lotus flower used as a background item on the home page was produced using Adobe Illustrator.
@@ -74,7 +103,9 @@ The last update to this file was: **January 29, 2022**
     - Imagery has been resized, optimised and formatted for display at different breakpoints using media queries.
     - The video used on the schedule page is free to use and was acquired through the [Pexels website](https://www.pexels.com).
 
-* Wireframes & Site Struture
+[Back to top](<#contents>)
+
+### Wireframes & Site Structure
 
     - The wireframes illustrate the main desktop visual, largely a two column design, with notes to reference the change to a one column layout on smaller screens. Approximate dimensions and structure are included, with some slight changes made during the development process.
     - On advice of my project leader, Kasia, the wireframes are hand-drawn, as oppose to the using Photoshop or Adobe XD as I had intended on doing inititally.
@@ -84,6 +115,8 @@ The last update to this file was: **January 29, 2022**
         - Registration Page Wireframe - [view wireframe](assets/readme-images/registration-page-mockup)
         - Thank You Page - no wireframe was created for this page as it was added afterwards. The form initially included the code institute form-dump link but my mentor advised me to create a separate 'thank you' page.
 
+[Back to top](<#contents>)
+
 # Features
 
 -   Fully responsive on all devices
@@ -91,11 +124,15 @@ The last update to this file was: **January 29, 2022**
 -   Subtle logo animation and hover effects
 -   Registration of interest for multiple class options, as required
 
+[Back to top](<#contents>)
+
 # Technologies Used
 
 ## Languages
 -   [HTML](https://www.w3schools.com/html/)
 -   [CSS](https://www.w3schools.com/css/)
+
+[Back to top](<#contents>)
 
 ## Frameworks, Libraries & Programs Used
 1.   [CSS Media Queries](https://fonts.google.com/) have been used heavily for visuals at relevant breakpoints.
@@ -108,24 +145,36 @@ The last update to this file was: **January 29, 2022**
 9.   [Compressor](https://compressor.io/) was used to further optimise all imagery.
 10.  [Pen & Paper](https://the-refinery.io/blog/tips-and-benefits-of-hand-drawn-wireframes) was used to create the wireframes for the project. This offered a quick visual representation of the basic site structure before getting stuck into coding.
 
+[Back to top](<#contents>)
+
 # Testing
 
 ## 1. Lighthouse | Mobile Scores
 ![Lighthouse | Mobile Scores](assets/readme-images/mobile-lighthouse-results.jpg)
 -   The site was tested regularly for mobile scores on lighthouse throughout the project.
 
+[Back to top](<#contents>)
+
 ## 2. Lighthouse | Desktop Scores
 ![Lighthouse | Desktop Scores](assets/readme-images/desktop-lighthouse-results.jpg)
 -   The site was tested regularly for desktop scores on lighthouse throughout the project.
 
+[Back to top](<#contents>)
+
 ## 3. Lighthouse | Overall Testing Overview
 -   I found lighthouse a very helpful tool to hone in on any performance related issues early on in the project. Based on initial results where performance was lagging, the advice was to create [WebP](https://en.wikipedia.org/wiki/WebP) images. However, I choose to call re-sized and optimised imagery at different breakpoints which alleviated this issue entirely and is commonly seen as best practice. Imagery was further optimised in Photoshop and run through Compressor, as mentioned above, which also contributed to alleviating the performance issues.
+
+[Back to top](<#contents>)
 
 ## 4. W3C Markup Validator: No Errors
 -   [View Results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fnomad1981.github.io%2Fproject-one%2F)
 
+[Back to top](<#contents>)
+
 ## 5. W3C CSS Validator: No Errors
 -   [View Results](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fnomad1981.github.io%2Fproject-one%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+
+[Back to top](<#contents>)
 
 ## 6. UX  | User Experience Testing
 -   The imagery offers clarity for the purpose of the site and the business immediately on load of the home page.
@@ -137,17 +186,25 @@ The last update to this file was: **January 29, 2022**
 -   The user can submit a form to register their interest in specific classes offered. They can include as many classes as they want and they can also choose to recive information on in-studio, online, or all options. This offers flexibility for the user.
 -   The user is offered an overview of the different yoga and meditation techniques covered.
 
+[Back to top](<#contents>)
+
 ## 7. General Testing
 -   Tested cross browser on Firefox, Chrome, Edge & Safari. It functions well on all browsers.
 -   Heavily tested on a range of devices and breakpoints, where is performs smoothly. 
 -   The form submission has been checked and it redirects to the 'thank you' page as it should.
 -   All website links and anchors have been checked and are functioning correctly.
 
+[Back to top](<#contents>)
+
 ## 8. Peer Code Review
 -   The site was [submitted for peer code review](https://code-institute-room.slack.com/archives/CGWQJQKC5/p1643309786571439) but I have had no response, as yet.
 
+[Back to top](<#contents>)
+
 ## 9. Known Bugs
 -   I am unhappy with the display of the [thank you](https://nomad1981.github.io/project-one/thank-you.html) page, on iPad Air & iPad Mini in particular where there is far too much white space below the main page textt and the user should not be required to scroll to see the footer area. There is too much I had employed per device styling for visual of this page on many different devices, but when tested for validation it was noted that these media queries have been deprecated, which I was not aware of. The deprecated code used can be [viewed here](assets/css/deprecated.css). It was therefore removed. The nature of the page is that it includes very little content, with just a message to the user. As I spent much time on this item, I have had to park it but I will be researching this issue moving forward for my own understanding of a fix.
+
+[Back to top](<#contents>)
 
 # Deployment to GitHub Pages
 1.  Login to [GitHub](https://github.com/) & select the repository for deployment.
@@ -161,6 +218,8 @@ The last update to this file was: **January 29, 2022**
 
 The link to my GitHub repository for this project can be [found here](https://github.com/NOMAD1981/project-one)
 
+[Back to top](<#contents>)
+
 # Creation of Clone
 
 1.  Open the repository for cloning
@@ -172,7 +231,9 @@ The link to my GitHub repository for this project can be [found here](https://gi
 5. Type git clone, and then paste the URL copied from the 'Code' tab.
 6. Press enter and the local clone is created.
 
-# Issue I experienced with Cloning
+[Back to top](<#contents>)
+
+# Issue Experienced with Cloning
 1.  I followed steps 1 through 3 above
 2.  I then entered 'git clone https://github.com/NOMAD1981/project-one.git git_clone' in order to create a clone within a folder in my current directory. The git_clone folder was created, as illustrated below.
 
@@ -183,6 +244,8 @@ The link to my GitHub repository for this project can be [found here](https://gi
 
 4. I noted issues whereby the GitHub page would not refresh and also had issues with the browser crashing.
 5. I restarted and deleted the 'git_clone' folder then pushed the changes to GitHub.
+
+[Back to top](<#contents>)
 
 # Credits
 
@@ -199,7 +262,9 @@ The link to my GitHub repository for this project can be [found here](https://gi
         - right: 30px; /* Place the button 30px from the right */
         - z-index: 99; /* Make sure it does not overlap */
 
-## Copyrighting
+[Back to top](<#contents>)
+
+## Text Content
 -   The following articles were referenced during creation of text content and to check terminology etc:
     - [Hatha Yoga Info](https://www.yogapedia.com/definition/4977/hatha-yoga)
     - [Iyengar Yoga Info](https://www.yogapedia.com/definition/5017/iyengar-yoga)
@@ -208,13 +273,20 @@ The link to my GitHub repository for this project can be [found here](https://gi
     - [Chakra Meditation Info](https://www.yogapedia.com/definition/11095/chakra-meditation)
     - [Qigong Meditation Info](https://www.yogapedia.com/definition/11045/qigong)
 
+[Back to top](<#contents>)
+
 ## Media
 -   Imagery used has been acquired through [Adobe Stock](https://stock.adobe.com/ie/) and is fully licensed under my AdobeCC subscription.
 -   The lotus flower background was produced using Adobe Illustrator.
 -   The video is free to use and was acquired through the [Pexels website](https://www.pexels.com).
+
+[Back to top](<#contents>)
 
 ## Acknowledgements
 -   I would like to thank our Cohort Facilitator on the course, Kasia Bogucka, for being an eternal ray of sunshine throughout this first project, and for offering support/advice wherever needed.
 -   I would also like to thank my mentor Precious Ijege for useful feedback throughout, and providing me with the following links to review with regard creation of this README file:
     - [Code Institute Sample README.md](https://github.com/Code-Institute-Solutions/SampleREADME)
     - [Wawas Woods Sample README.md - produced by Ewan Colquhoun](https://github.com/EwanColquhoun/wawaswoods/blob/master/README.md#contents)
+-   Thanks also to my husband, Paolo, family and friends for user experience testing.
+
+[Back to top](<#contents>)
