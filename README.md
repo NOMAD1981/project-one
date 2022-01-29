@@ -14,6 +14,11 @@ The last update to this file was: **January 29, 2022**
 ## Am I Responsive | Site Visual
 ![Buddhi Yoga Studio AIS Visual](assets/readme-images/ais-visual.jpg)
 
+# Contents
+
+* [**UX | User Experience**](<#ux--user-experience>)
+* [**Features**](<#features>)
+
 # UX | User Experience
 
 ## User Requirements Feedback
