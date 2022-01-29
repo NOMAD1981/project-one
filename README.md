@@ -9,13 +9,10 @@ Buddhi Yoga Studio offers both in-studio and online classes via zoom.
 
 *Buddhi Yoga studio is an imagined business. The people mentioned here do not exist, and the background story has been created for use in this project only.*
 
-The last update to this file was: **January 28, 2022**
+The last update to this file was: **January 29, 2022**
 
 ## Am I Responsive | Site Visual
 ![Buddhi Yoga Studio AIS Visual](assets/readme-images/ais-visual.jpg)
-
-# Contents
-(to be added once complete)
 
 # UX | User Experience
 
@@ -213,4 +210,6 @@ The link to my GitHub repository for this project can be [found here](https://gi
 
 ## Acknowledgements
 -   I would like to thank our Cohort Facilitator on the course, Kasia Bogucka, for being an eternal ray of sunshine throughout this first project, and for offering support/advice wherever needed.
--   I would also like to thank my mentor Precious Ijege for useful feedback throughout.
+-   I would also like to thank my mentor Precious Ijege for useful feedback throughout, and providing me with the following links to review with regard creation of this README file:
+    - [Code Institute Sample README.md](https://github.com/Code-Institute-Solutions/SampleREADME)
+    - [Wawas Woods Sample README.md - produced by Ewan Colquhoun](https://github.com/EwanColquhoun/wawaswoods/blob/master/README.md#contents)
